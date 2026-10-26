@@ -1,0 +1,84 @@
+﻿source,tag,id,className,startsWithText,x,y,width,height,bottom,background,backgroundImage,paddingTop,paddingBottom
+primary,SECTION,oem-opportunity,"
+        relative
+        min-h-[580px]
+        overflow-hidden
+        bg-cover",Why Now The Platform Market Applications Partner Opportunity,0,0,1440,854,854,transparent,"url(""https://bargertechenergy.com/assets/oem-opportunity-hero-alternate-CcBVTvsW.jpg"")",0px,0px
+full-width container,DIV,,absolute inset-0,,0,0,1440,854,854,transparent,"linear-gradient(90deg, rgba(2, 13, 20, 0.78) 0%, rgba(2, 13, 20, 0.5) 50%, rgba(2, 13, 20, 0.2) 100%)",0px,0px
+primary,HEADER,,"left-0 right-0 top-0 z-20 px-8 py-3 sm:py-3 transition-[background-color,padding",Why Now The Platform Market Applications Partner Opportunity,0,0,1440,112,112,transparent,none,16px,16px
+full-width container,DIV,,flex w-full items-center justify-between,Why Now The Platform Market Applications Partner Opportunity,80,16,1280,80,96,transparent,none,0px,0px
+primary,NAV,,gm-fade-slide-up hidden shrink-0 items-center gap-6 rounded-full border border-[,Why Now The Platform Market Applications Partner Opportunity,343.28,29,835.73,54,83,#FFFFFF @0.08,none,16px,16px
+full-width container,DIV,,"
+          relative
+          z-10
+          flex
+          flex-col
+          g",Do Not Wait Years to Start from Zero. The BargerTech platfor,0,112,1440,663,775,transparent,none,73px,64px
+primary,SECTION,,"
+        overflow-hidden
+        bg-[#FAFBFD]
+        px-8
+        py-14
+
+      ",STRATEGIC ADVANTAGE What a Strategic Partner May Gain 01 Acc,0,854,1440,983.75,1837.75,#FAFBFD,none,100px,100px
+full-width container,DIV,,mx-auto flex w-full flex-col gap-8 sm:gap-10 lg:max-w-[1760px] lg:gap-10,STRATEGIC ADVANTAGE What a Strategic Partner May Gain 01 Acc,80,954,1280,783.75,1737.75,transparent,none,0px,0px
+full-width container,DIV,,flex flex-col gap-4,STRATEGIC ADVANTAGE What a Strategic Partner May Gain,80,954,1280,96,1050,transparent,none,0px,0px
+full-width container,DIV,,flex flex-col gap-3,STRATEGIC ADVANTAGE,80,954,1280,38,992,transparent,none,0px,0px
+full-width container,DIV,,"
+            flex
+            flex-col
+            gap-8
+
+            sm:gap-10
+",01 Access to an established energy platform within an execut,80,1090,1280,647.75,1737.75,transparent,none,0px,0px
+primary,SECTION,,"
+        overflow-hidden
+        bg-white
+        px-8
+        py-14
+
+        sm",IDEAL ALIGNMENT Who BargerTech Wants to Meet OEM Parts Manuf,0,1837.75,1440,992,2829.75,#FFFFFF,none,100px,100px
+full-width container,DIV,,"
+          mx-auto
+          flex
+          w-full
+          max-w-[1760px]
+    ",IDEAL ALIGNMENT Who BargerTech Wants to Meet OEM Parts Manuf,80,1937.75,1280,792,2729.75,transparent,none,0px,0px
+full-width container,DIV,,flex w-full flex-col gap-6,IDEAL ALIGNMENT Who BargerTech Wants to Meet,80,1937.75,1280,104,2041.75,transparent,none,0px,0px
+full-width container,DIV,,flex flex-col gap-3,IDEAL ALIGNMENT,80,1937.75,1280,38,1975.75,transparent,none,0px,0px
+full-width container,DIV,,"
+            grid
+            grid-cols-1
+            gap-3
+
+            xl:grid","OEM Parts Manufacturers and Supply Components Manufacturing,",80,2065.75,1280,664,2729.75,transparent,none,0px,0px
+primary,SECTION,,"
+        relative
+        overflow-hidden
+        border-y
+        border-[#1B6A",PLATFORM VALUES Commercial Philosophy Long-term partnership ,0,2829.75,1440,606,3435.75,transparent,"linear-gradient(90deg, rgb(5, 10, 22) 0%, rgb(11, 27, 58) 55%, rgb(10, 20, 41) 100%)",100px,100px
+full-width container,DIV,,"
+          relative
+          mx-auto
+          grid
+          w-full
+          ",PLATFORM VALUES Commercial Philosophy Long-term partnership ,80,2930.75,1280,404,3334.75,transparent,none,0px,0px
+primary,SECTION,,"
+        overflow-hidden
+        bg-[#FAFBFD]
+        px-8
+        py-14
+
+      ",The objective is not to collect the largest number of applic,0,3435.75,1440,650,4085.75,#FAFBFD,none,100px,100px
+full-width container,DIV,,gm-reveal relative mx-auto flex min-h-[274px] w-full max-w-[326px] flex-col item,The objective is not to collect the largest number of applic,80,3535.75,1280,450,3985.75,#082E5A,none,64px,64px
+primary,FOOTER,,gm-fade-slide-up overflow-hidden bg-[#E8F2FA] px-8 pt-14 sm:px-10 sm:pt-16 lg:px,BargerTech Powering the next generation of onsite and distri,0,4085.75,1440,668,4753.75,#E8F2FA,none,64px,0px
+full-width container,DIV,,"
+            flex
+            flex-col
+            gap-10
+            pb-12
+
+   ",BargerTech Powering the next generation of onsite and distri,80,4149.75,1280,334,4483.75,transparent,none,0px,56px
+full-width container,DIV,,mt-10 flex flex-col gap-6 border-t border-[#B8CBDC] py-8 sm:mt-12 sm:gap-6 sm:py,Public information on this website is preliminary and non-co,80,4539.75,1280,149,4688.75,transparent,none,32px,32px
+full-width container,DIV,,flex items-start gap-4 text-[12px] leading-[18px] text-[#5C645E] lg:text-[14px] ,Public information on this website is preliminary and non-co,80,4572.75,1280,42,4614.75,transparent,none,0px,0px
+full-width container,DIV,,border-t border-[#B8CBDC] py-8 sm:py-8 lg:py-5,BargerTech Engines OEM Commercialization Platform - Powered ,80,4688.75,1280,65,4753.75,transparent,none,20px,20px

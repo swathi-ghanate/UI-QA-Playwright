@@ -1,0 +1,30 @@
+﻿group,filterId,type,value
+Partner Opportunity > g-energy-hero > Navigation_Top_Bar,,backdrop-filter,blur(12px)
+,filter2_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter2_d_1677_4883,feOffset (shadow offset),dx 0 dy 10
+,filter2_d_1677_4883,feGaussianBlur (stdDeviation),14
+,filter2_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0784314 0
+,filter3_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter3_d_1677_4883,feOffset (shadow offset),dx 0 dy 10
+,filter3_d_1677_4883,feGaussianBlur (stdDeviation),14
+,filter3_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0784314 0
+,filter4_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter4_d_1677_4883,feOffset (shadow offset),dx 0 dy 10
+,filter4_d_1677_4883,feGaussianBlur (stdDeviation),14
+,filter4_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0784314 0
+,filter5_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter5_d_1677_4883,feOffset (shadow offset),dx 0 dy 10
+,filter5_d_1677_4883,feGaussianBlur (stdDeviation),14
+,filter5_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0784314 0
+,filter6_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter6_d_1677_4883,feOffset (shadow offset),dx 0 dy 10
+,filter6_d_1677_4883,feGaussianBlur (stdDeviation),14
+,filter6_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0784314 0
+,filter7_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter7_d_1677_4883,feOffset (shadow offset),dx 0 dy 10
+,filter7_d_1677_4883,feGaussianBlur (stdDeviation),14
+,filter7_d_1677_4883,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0784314 0
+,filter8_f_1677_4883,feGaussianBlur (stdDeviation),60
+,filter9_f_1677_4883,feGaussianBlur (stdDeviation),70
+,filter10_f_1677_4883,feGaussianBlur (stdDeviation),50
+,filter11_f_1677_4883,feGaussianBlur (stdDeviation),65

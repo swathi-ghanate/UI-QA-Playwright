@@ -1,0 +1,47 @@
+﻿group,filterId,type,value
+Home > g-energy-hero > Navigation_Top_Bar,,backdrop-filter,blur(12px)
+Home > products-section-redesign > split-grid > Product_40_Series,,backdrop-filter,blur(16px)
+Home > products-section-redesign > split-grid > Product_350_Series,,backdrop-filter,blur(16px)
+Home > products-section-redesign > Overlaid_Section_Header,,backdrop-filter,blur(8px)
+,filter4_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter4_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter4_dd_1677_3984,feGaussianBlur (stdDeviation),1
+,filter4_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter4_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter4_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter4_dd_1677_3984,feGaussianBlur (stdDeviation),1.5
+,filter4_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter5_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter5_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter5_dd_1677_3984,feGaussianBlur (stdDeviation),1
+,filter5_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter5_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter5_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter5_dd_1677_3984,feGaussianBlur (stdDeviation),1.5
+,filter5_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter6_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter6_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter6_dd_1677_3984,feGaussianBlur (stdDeviation),1
+,filter6_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter6_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter6_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter6_dd_1677_3984,feGaussianBlur (stdDeviation),1.5
+,filter6_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter7_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter7_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter7_dd_1677_3984,feGaussianBlur (stdDeviation),1
+,filter7_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter7_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter7_dd_1677_3984,feOffset (shadow offset),dx 0 dy 1
+,filter7_dd_1677_3984,feGaussianBlur (stdDeviation),1.5
+,filter7_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.0392157 0 0 0 0 0.0496732 0 0 0 0 0.0705882 0 0 0 0.1 0
+,filter8_f_1677_3984,feGaussianBlur (stdDeviation),60
+,filter9_f_1677_3984,feGaussianBlur (stdDeviation),50
+,filter10_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter10_dd_1677_3984,feOffset (shadow offset),dx 0 dy 20
+,filter10_dd_1677_3984,feGaussianBlur (stdDeviation),20
+,filter10_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.105882 0 0 0 0 0.415686 0 0 0 0 0.666667 0 0 0 0.25098 0
+,filter10_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+,filter10_dd_1677_3984,feOffset (shadow offset),dx 0 dy 0
+,filter10_dd_1677_3984,feGaussianBlur (stdDeviation),10
+,filter10_dd_1677_3984,feColorMatrix (shadow colour/alpha),0 0 0 0 0.231373 0 0 0 0 0.509804 0 0 0 0 0.964706 0 0 0 0.2 0

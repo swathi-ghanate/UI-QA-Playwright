@@ -1,0 +1,39 @@
+﻿tag,category,className,text,x,y,width,height,borderRadius,background,backdropFilter,filter,boxShadow,gradient
+DIV,meaningful-container,absolute inset-0,,0,0,1440,854,0px,transparent,none,none,none,"linear-gradient(90deg, rgba(2, 13, 20, 0.78) 0%, rgba(2, 13, 20, 0.5) 50%, rgba(2, 13, 20, 0.2) 100%)"
+NAV,primary,gm-fade-slide-up hidden shrink-0 items-center gap-6 rounded-full border border-[,Why Now The Platform Market Applications Partner Opportunity,343.28,29,835.73,54,3.35544e+07px,#FFFFFF @0.08,blur(12px),none,none,
+DIV,meaningful-container,gm-reveal gm-partner-image-card group relative h-[220px] w-full overflow-hidden ,"OEM Parts Manufacturers and Supply Components Manufacturing,",80,2065.75,302,320,20px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 10px 28px -10px",
+DIV,meaningful-container,absolute inset-0,,80,2065.75,302,320,0px,transparent,none,none,none,"linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50.2%, rgba(0, 0, 0, 0.9) 90.2%)"
+DIV,meaningful-container,gm-reveal gm-partner-image-card group relative h-[220px] w-full overflow-hidden ,Generator Package Supply Partners & Power Integrators System,406,2065.75,302,320,20px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 10px 28px -10px",
+DIV,meaningful-container,absolute inset-0,,406,2065.75,302,320,0px,transparent,none,none,none,"linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50.2%, rgba(0, 0, 0, 0.9) 90.2%)"
+DIV,meaningful-container,gm-reveal gm-partner-image-card group relative h-[220px] w-full overflow-hidden ,Energy-as-a-Service Providers - Power by The Hour Project or,732,2065.75,302,320,20px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 10px 28px -10px",
+DIV,meaningful-container,absolute inset-0,,732,2065.75,302,320,0px,transparent,none,none,none,"linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50.2%, rgba(0, 0, 0, 0.9) 90.2%)"
+DIV,meaningful-container,gm-reveal gm-partner-image-card group relative h-[220px] w-full overflow-hidden ,"Natural-Gas & Resource Companies Fuel access, project sites,",1058,2065.75,302,320,20px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 10px 28px -10px",
+DIV,meaningful-container,absolute inset-0,,1058,2065.75,302,320,0px,transparent,none,none,none,"linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50.2%, rgba(0, 0, 0, 0.9) 90.2%)"
+DIV,meaningful-container,gm-reveal gm-partner-image-card group relative h-[220px] w-full overflow-hidden ,"Strategic Capital Partners Technology-capital, manufacturing",80,2409.75,302,320,20px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 10px 28px -10px",
+DIV,meaningful-container,absolute inset-0,,80,2409.75,302,320,0px,transparent,none,none,none,"linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50.2%, rgba(0, 0, 0, 0.9) 90.2%)"
+DIV,meaningful-container,gm-reveal gm-partner-image-card group relative h-[220px] w-full overflow-hidden ,"Anchor Customers & Deployment Partners Reference demand, use",406,2409.75,302,320,20px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 10px 28px -10px",
+DIV,meaningful-container,absolute inset-0,,406,2409.75,302,320,0px,transparent,none,none,none,"linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50.2%, rgba(0, 0, 0, 0.9) 90.2%)"
+DIV,meaningful-container,"
+          pointer-events-none
+          absolute
+          -left-[100px]
+      ",,-100,2729.75,500,500,3.35544e+07px,#1B6AAA,none,blur(64px),none,
+SECTION,primary,"
+        relative
+        overflow-hidden
+        border-y
+        border-[#1B6A",PLATFORM VALUES Commercial Philosophy Long-term partnership ,0,2829.75,1440,606,0px,transparent,none,none,none,"linear-gradient(90deg, rgb(5, 10, 22) 0%, rgb(11, 27, 58) 55%, rgb(10, 20, 41) 100%)"
+DIV,meaningful-container,"
+          pointer-events-none
+          absolute
+          left-[900px]
+       ",,900,3129.75,600,600,3.35544e+07px,#3B82F6,none,blur(64px),none,
+DIV,meaningful-container,"
+            pointer-events-none
+            absolute
+            -left-[237px]
+",,-157,3551.75,400,400,3.35544e+07px,#1B6AAA,none,blur(64px),none,
+DIV,meaningful-container,"
+            pointer-events-none
+            absolute
+            -right-[300px]",,1160,3625.75,500,500,3.35544e+07px,#3B82F6,none,blur(64px),none,

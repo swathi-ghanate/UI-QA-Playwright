@@ -1,0 +1,27 @@
+﻿source,tag,id,className,startsWithText,x,y,width,height,bottom,background,backgroundImage,paddingTop,paddingBottom
+primary,SECTION,,relative min-h-[580px] overflow-hidden bg-cover bg-[position:72%_bottom] lg:min-,Why Now The Platform Market Applications Partner Opportunity,0,0,1440,861,861,transparent,none,0px,0px
+full-width container,DIV,,gm-hero-bg-zoom absolute inset-0 bg-cover bg-[position:72%_bottom] lg:bg-bottom,,0,0,1440,861,861,transparent,"url(""https://bargertechenergy.com/assets/market-applications-hero-B6lqIDLK.jpg"")",0px,0px
+full-width container,DIV,,absolute inset-0,,0,0,1440,861,861,transparent,"linear-gradient(90deg, rgba(2, 13, 20, 0.7) 0%, rgba(2, 13, 20, 0.3) 50%, rgba(2, 13, 20, 0.1) 100%)",0px,0px
+primary,HEADER,,"left-0 right-0 top-0 z-20 px-8 py-3 sm:py-3 transition-[background-color,padding",Why Now The Platform Market Applications Partner Opportunity,0,0,1440,112,112,transparent,none,16px,16px
+full-width container,DIV,,flex w-full items-center justify-between,Why Now The Platform Market Applications Partner Opportunity,80,16,1280,80,96,transparent,none,0px,0px
+primary,NAV,,gm-fade-slide-up hidden shrink-0 items-center gap-6 rounded-full border border-[,Why Now The Platform Market Applications Partner Opportunity,345.25,29,831.8,54,83,#FFFFFF @0.08,none,16px,16px
+full-width container,DIV,,relative z-10 flex flex-col items-center px-8 pb-12 pt-[38px] text-center sm:gap,The Engine That Can Power What Comes Next. Grid access is de,0,112,1440,749,861,transparent,none,73px,48px
+primary,SECTION,why-now,overflow-hidden bg-[#FAFBFD] px-8 py-14 sm:px-10 sm:py-[100px] lg:px-20,THE MARKET CANNOT WAIT !! Power demand is accelerating faste,0,861,1440,831,1692,#FAFBFD,none,100px,100px
+full-width container,DIV,,mx-auto grid w-full max-w-[1670px] grid-cols-1 gap-7 sm:gap-12 lg:grid-cols-[460,THE MARKET CANNOT WAIT !! Power demand is accelerating faste,80,961,1280,631,1592,transparent,none,0px,0px
+primary,SECTION,platform,relative bg-white,A platform for energy reliability and control Small Business,0,1692,1440,760,2452,#FFFFFF,none,0px,0px
+full-width container,DIV,,grid grid-cols-1 lg:grid-cols-2,Small Business BargerTech 40 Series 20–100 kW modular rotary,0,1692,1440,760,2452,transparent,none,0px,0px
+primary,SECTION,oem-opportunity,overflow-hidden bg-[#F0F6FC] px-8 py-14 sm:px-10 sm:py-[100px] lg:px-20,COOPERATIVE PARTNER OPPORTUNITIES Why partner with BargerTec,0,2452,1440,564,3016,#F0F6FC,none,100px,100px
+full-width container,DIV,,mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4,Enter a growing distributed-energy market without beginning ,80,2700,1280,216,2916,transparent,none,0px,0px
+primary,SECTION,partner-opportunity,relative min-h-[750px] overflow-hidden border-t border-[#1B6AAA] px-8 py-14 sm:m,COOPERATIVE OPPORTUNITY The next generation of distributed p,0,3016,1440,623,3639,transparent,"linear-gradient(135deg, rgb(10, 15, 30) 0%, rgb(11, 16, 32) 100%)",80px,80px
+full-width container,DIV,,gm-reveal relative mx-auto flex w-full max-w-[1670px] flex-col items-center gap-,COOPERATIVE OPPORTUNITY The next generation of distributed p,80,3097,1280,462,3559,transparent,none,0px,0px
+primary,FOOTER,,gm-fade-slide-up overflow-hidden bg-[#E8F2FA] px-8 pt-14 sm:px-10 sm:pt-16 lg:px,BargerTech Powering the next generation of onsite and distri,0,3639,1440,668,4307,#E8F2FA,none,64px,0px
+full-width container,DIV,,"
+            flex
+            flex-col
+            gap-10
+            pb-12
+
+   ",BargerTech Powering the next generation of onsite and distri,80,3703,1280,334,4037,transparent,none,0px,56px
+full-width container,DIV,,mt-10 flex flex-col gap-6 border-t border-[#B8CBDC] py-8 sm:mt-12 sm:gap-6 sm:py,Public information on this website is preliminary and non-co,80,4093,1280,149,4242,transparent,none,32px,32px
+full-width container,DIV,,flex items-start gap-4 text-[12px] leading-[18px] text-[#5C645E] lg:text-[14px] ,Public information on this website is preliminary and non-co,80,4126,1280,42,4168,transparent,none,0px,0px
+full-width container,DIV,,border-t border-[#B8CBDC] py-8 sm:py-8 lg:py-5,BargerTech Engines OEM Commercialization Platform - Powered ,80,4242,1280,65,4307,transparent,none,20px,20px

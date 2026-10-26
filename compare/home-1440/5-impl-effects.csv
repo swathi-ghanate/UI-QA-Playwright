@@ -1,0 +1,32 @@
+﻿tag,category,className,text,x,y,width,height,borderRadius,background,backdropFilter,filter,boxShadow,gradient
+DIV,meaningful-container,absolute inset-0,,0,0,1440,861,0px,transparent,none,none,none,"linear-gradient(90deg, rgba(2, 13, 20, 0.7) 0%, rgba(2, 13, 20, 0.3) 50%, rgba(2, 13, 20, 0.1) 100%)"
+NAV,primary,gm-fade-slide-up hidden shrink-0 items-center gap-6 rounded-full border border-[,Why Now The Platform Market Applications Partner Opportunity,345.25,29,831.8,54,3.35544e+07px,#FFFFFF @0.08,blur(12px),none,none,
+IMG,primary,absolute inset-0 h-full w-full object-cover object-[center_20%] brightness-110 c,,-54,1635,828,874,0px,transparent,none,brightness(1.1) contrast(1.05) saturate(1.1),none,
+IMG,primary,absolute inset-0 h-full w-full object-cover object-[center_20%] brightness-110 c,,720,1692,720,760,0px,transparent,none,brightness(1.1) contrast(1.05) saturate(1.1),none,
+DIV,meaningful-container,"
+          absolute
+          left-1/2
+          top-5
+          z-10
+          ",A platform for energy reliability and control,475.95,1732,488.11,64,3.35544e+07px,#041C40 @0.83,blur(16px),none,none,
+DIV,meaningful-container,"
+          relative flex
+          w-full
+          shrink-0
+          flex-col
+",Small Business BargerTech 40 Series 20–100 kW modular rotary,64,2107,592,305,24px,#041C40 @0.7,blur(32px),none,none,
+DIV,meaningful-container,"
+          relative flex
+          w-full
+          shrink-0
+          flex-col
+",Commercial & Community BargerTech 350 Series 500 kW–2 MW mod,784,2107,592,305,24px,#1C1C1C @0.7,blur(32px),none,none,
+DIV,meaningful-container,gm-reveal gm-partner-card flex min-h-[164px] flex-col items-start gap-3 rounded-,Enter a growing distributed-energy market without beginning ,80,2700,302,216,16px,#FFFFFF,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(10, 13, 18, 0.1) 0px 1px 3px 0px, rgba(10, 13, 18, 0.1) 0px 1px 2px -1px",
+DIV,meaningful-container,gm-reveal gm-partner-card flex min-h-[164px] flex-col items-start gap-3 rounded-,Build on a structured technology and commercialization proce,406,2700,302,216,16px,#FFFFFF,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(10, 13, 18, 0.1) 0px 1px 3px 0px, rgba(10, 13, 18, 0.1) 0px 1px 2px -1px",
+DIV,meaningful-container,gm-reveal gm-partner-card flex min-h-[164px] flex-col items-start gap-3 rounded-,Combine regional manufacturing with common engineering and q,732,2700,302,216,16px,#FFFFFF,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(10, 13, 18, 0.1) 0px 1px 3px 0px, rgba(10, 13, 18, 0.1) 0px 1px 2px -1px",
+DIV,meaningful-container,gm-reveal gm-partner-card flex min-h-[164px] flex-col items-start gap-3 rounded-,Participate in long-term platform evolution and cooperative ,1058,2700,302,216,16px,#FFFFFF,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(10, 13, 18, 0.1) 0px 1px 3px 0px, rgba(10, 13, 18, 0.1) 0px 1px 2px -1px",
+DIV,meaningful-container,pointer-events-none absolute -left-[200px] -top-[100px] h-[600px] w-[600px] roun,,-200,2917,600,600,3.35544e+07px,#1B6AAA,none,blur(64px),none,
+SECTION,primary,relative min-h-[750px] overflow-hidden border-t border-[#1B6AAA] px-8 py-14 sm:m,COOPERATIVE OPPORTUNITY The next generation of distributed p,0,3016,1440,623,0px,transparent,none,none,none,"linear-gradient(135deg, rgb(10, 15, 30) 0%, rgb(11, 16, 32) 100%)"
+DIV,meaningful-container,relative aspect-[2.1/1] w-full overflow-visible rounded-2xl border-2 border-[#1B,,800,3097,560,462,24px,transparent,none,none,"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(59, 130, 246, 0.2) 0px 0px 20px 0px, rgba(27, 106, 170, 0.25) 0px 20px 40px 0px",
+DIV,meaningful-container,absolute inset-0,,802,3099,556,458,0px,transparent,none,none,none,"linear-gradient(146deg, rgba(0, 0, 0, 0) 45%, rgba(10, 15, 30, 0.8) 75%)"
+DIV,meaningful-container,pointer-events-none absolute bottom-0 right-[-80px] h-[500px] w-[500px] rounded-,,1020,3139,500,500,3.35544e+07px,#3B82F6,none,blur(64px),none,

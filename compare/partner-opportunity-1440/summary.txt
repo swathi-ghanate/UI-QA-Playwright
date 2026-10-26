@@ -1,0 +1,14 @@
+Page: partner-opportunity-1440
+Design SVG:          design\partner-opportunity-1440.svg
+Implementation JSON: output\partner-opportunity-1440-enhanced.json  (https://bargertechenergy.com/oem-opportunity)
+
+Width   design 1440  vs implementation 1440
+Height  design 4629  vs implementation 4754  (delta 125)
+Viewport 1440x900, DPR 1
+
+Design text blocks: 75  | matched: 71  | not found: 4  | rows flagged to review: 58
+Design rects (>=80x32): 45  | design effects: 29  | design gradients: 14
+Impl section blocks: 25  | impl elements with effects: 19  | interaction states: 27
+
+
+Reminder: total height is NOT a fidelity score. Compare section heights first (framework section 2/8).

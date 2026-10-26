@@ -1,0 +1,14 @@
+Page: home-1440
+Design SVG:          design\home-1440.svg
+Implementation JSON: output\home-1440-enhanced.json  (https://bargertechenergy.com/)
+
+Width   design 1440  vs implementation 1440
+Height  design 4372  vs implementation 4307  (delta -65)
+Viewport 1440x900, DPR 1
+
+Design text blocks: 71  | matched: 69  | not found: 2  | rows flagged to review: 51
+Design rects (>=80x32): 30  | design effects: 46  | design gradients: 3
+Impl section blocks: 20  | impl elements with effects: 16  | interaction states: 27
+
+
+Reminder: total height is NOT a fidelity score. Compare section heights first (framework section 2/8).
