@@ -1,0 +1,2591 @@
+{
+  "code": "B3",
+  "title": "Figma vs implemented UI (layout)",
+  "page": "partner-opportunity",
+  "pageTitle": "Partner Opportunity",
+  "url": "http://192.168.5.250:8081/oem-opportunity",
+  "figma": "design/partner-opportunity-1440.svg",
+  "generated": "2026-11-04T13:35:27.283Z",
+  "score": {
+    "matched": 50,
+    "differ": 59,
+    "unverified": 0,
+    "verifiable": 109,
+    "pct": 45.9
+  },
+  "results": [
+    {
+      "id": "B1",
+      "audit": "B",
+      "category": "",
+      "element": "Page",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1440px",
+      "uiText": "1440px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B2",
+      "audit": "B",
+      "category": "",
+      "element": "Content container",
+      "property": "left edge",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"Split_Layout\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B3",
+      "audit": "B",
+      "category": "",
+      "element": "Content container",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1280px",
+      "uiText": "1280px",
+      "figmaSelectors": [
+        "[id=\"Split_Layout\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B4",
+      "audit": "B",
+      "category": "",
+      "element": "Sections",
+      "property": "order top to bottom",
+      "state": "Default",
+      "viewport": "",
+      "kind": "list",
+      "figmaText": "[hero, advantages, partners, platform, cta, footer]",
+      "uiText": "[hero, advantages, partners, platform, cta, footer]",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)",
+        "[id=\"advantages-section\"]",
+        "[id=\"Partners_Section\"]",
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]",
+        "[id=\"CTA_Section\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity",
+        "section:has-text(\"What a Strategic Partner May Gain\")",
+        "section:has-text(\"Who BargerTech Wants to Meet\")",
+        "section:has-text(\"Commercial Philosophy\")",
+        "section:has-text(\"The objective is not to collect\")",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B5",
+      "audit": "B",
+      "category": "",
+      "element": "Sections",
+      "property": "gaps between sections",
+      "state": "Default",
+      "viewport": "",
+      "kind": "list",
+      "figmaText": "[0, 0, 0, 0, 0]",
+      "uiText": "[0, 0, 0, 0, 0]",
+      "figmaSelectors": [
+        "[id=\"advantages-section\"]",
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)",
+        "[id=\"Partners_Section\"]",
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]",
+        "[id=\"CTA_Section\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\")",
+        "section#oem-opportunity",
+        "section:has-text(\"Who BargerTech Wants to Meet\")",
+        "section:has-text(\"Commercial Philosophy\")",
+        "section:has-text(\"The objective is not to collect\")",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B6",
+      "audit": "B",
+      "category": "",
+      "element": "Hero section",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "854px",
+      "uiText": "854px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B7",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages section",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "978px",
+      "uiText": "983.75px",
+      "figmaSelectors": [
+        "[id=\"advantages-section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 5.75,
+      "severity": "Minor",
+      "fix": "Change height from 983.75px to 978px"
+    },
+    {
+      "id": "B8",
+      "audit": "B",
+      "category": "",
+      "element": "Partners section",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1022px",
+      "uiText": "992px",
+      "figmaSelectors": [
+        "[id=\"Partners_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -30,
+      "severity": "Major",
+      "fix": "Change height from 992px to 1022px"
+    },
+    {
+      "id": "B9",
+      "audit": "B",
+      "category": "",
+      "element": "Platform section",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "584px",
+      "uiText": "606px",
+      "figmaSelectors": [
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 22,
+      "severity": "Major",
+      "fix": "Change height from 606px to 584px"
+    },
+    {
+      "id": "B10",
+      "audit": "B",
+      "category": "",
+      "element": "CTA section",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "640px",
+      "uiText": "650px",
+      "figmaSelectors": [
+        "[id=\"CTA_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 10,
+      "severity": "Major",
+      "fix": "Change height from 650px to 640px"
+    },
+    {
+      "id": "B11",
+      "audit": "B",
+      "category": "",
+      "element": "Footer",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "551px",
+      "uiText": "668px",
+      "figmaSelectors": [
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 117,
+      "severity": "Major",
+      "fix": "Change height from 668px to 551px"
+    },
+    {
+      "id": "B12",
+      "audit": "B",
+      "category": "",
+      "element": "Logo",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B13",
+      "audit": "B",
+      "category": "",
+      "element": "Logo",
+      "property": "y",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change y from 16px to 32px"
+    },
+    {
+      "id": "B14",
+      "audit": "B",
+      "category": "",
+      "element": "Logo",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "236px",
+      "uiText": "236px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B15",
+      "audit": "B",
+      "category": "",
+      "element": "Logo",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B16",
+      "audit": "B",
+      "category": "",
+      "element": "Nav pill",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "323px",
+      "uiText": "343.28px",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 20.28,
+      "severity": "Major",
+      "fix": "Change x from 343.28px to 323px"
+    },
+    {
+      "id": "B17",
+      "audit": "B",
+      "category": "",
+      "element": "Nav pill",
+      "property": "y",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "45.5px",
+      "uiText": "29px",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16.5,
+      "severity": "Major",
+      "fix": "Change y from 29px to 45.5px"
+    },
+    {
+      "id": "B18",
+      "audit": "B",
+      "category": "",
+      "element": "Nav pill",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "876px",
+      "uiText": "835.73px",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -40.27,
+      "severity": "Major",
+      "fix": "Change width from 835.73px to 876px"
+    },
+    {
+      "id": "B19",
+      "audit": "B",
+      "category": "",
+      "element": "Nav pill",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "53px",
+      "uiText": "54px",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 1,
+      "severity": "Minor",
+      "fix": "Change height from 54px to 53px"
+    },
+    {
+      "id": "B20",
+      "audit": "B",
+      "category": "",
+      "element": "Nav button",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1206px",
+      "uiText": "1206.3px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B21",
+      "audit": "B",
+      "category": "",
+      "element": "Nav button",
+      "property": "y",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "35px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -13,
+      "severity": "Major",
+      "fix": "Change y from 35px to 48px"
+    },
+    {
+      "id": "B22",
+      "audit": "B",
+      "category": "",
+      "element": "Nav button",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "154px",
+      "uiText": "153.7px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B23",
+      "audit": "B",
+      "category": "",
+      "element": "Nav button",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "42px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6,
+      "severity": "Minor",
+      "fix": "Change height from 42px to 48px"
+    },
+    {
+      "id": "B24",
+      "audit": "B",
+      "category": "",
+      "element": "Logo → nav pill",
+      "property": "gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "7px",
+      "uiText": "27.28px",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]",
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header nav",
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 20.28,
+      "severity": "Major",
+      "fix": "Change gap from 27.28px to 7px"
+    },
+    {
+      "id": "B25",
+      "audit": "B",
+      "category": "",
+      "element": "Nav pill → nav button",
+      "property": "gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "7px",
+      "uiText": "27.28px",
+      "figmaSelectors": [
+        "[id=\"Button\"]",
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")",
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 20.28,
+      "severity": "Major",
+      "fix": "Change gap from 27.28px to 7px"
+    },
+    {
+      "id": "B26",
+      "audit": "B",
+      "category": "",
+      "element": "Header row",
+      "property": "vertical centre line (logo)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "72px",
+      "uiText": "56px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change vertical centre line (logo) from 56px to 72px"
+    },
+    {
+      "id": "B27",
+      "audit": "B",
+      "category": "",
+      "element": "Header row",
+      "property": "vertical centre line (nav pill)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "72px",
+      "uiText": "56px",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change vertical centre line (nav pill) from 56px to 72px"
+    },
+    {
+      "id": "B28",
+      "audit": "B",
+      "category": "",
+      "element": "Header row",
+      "property": "vertical centre line (nav button)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "72px",
+      "uiText": "56px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change vertical centre line (nav button) from 56px to 72px"
+    },
+    {
+      "id": "B29",
+      "audit": "B",
+      "category": "",
+      "element": "Nav links",
+      "property": "first link inset from pill edge",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "17px",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text",
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav a",
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -7,
+      "severity": "Minor",
+      "fix": "Change first link inset from pill edge from 17px to 24px"
+    },
+    {
+      "id": "B30",
+      "audit": "B",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "text left edge",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B31",
+      "audit": "B",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "first baseline from hero top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "270.09px",
+      "uiText": "257px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)",
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1",
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -13.09,
+      "severity": "Major",
+      "fix": "Change first baseline from hero top from 257px to 270.09px"
+    },
+    {
+      "id": "B32",
+      "audit": "B",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "text-align",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "left",
+      "uiText": "left",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "B33",
+      "audit": "B",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "text left edge",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B34",
+      "audit": "B",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "first baseline from hero top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "502.27px",
+      "uiText": "496px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]",
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p",
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6.27,
+      "severity": "Minor",
+      "fix": "Change first baseline from hero top from 496px to 502.27px"
+    },
+    {
+      "id": "B35",
+      "audit": "B",
+      "category": "",
+      "element": "Hero button",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B36",
+      "audit": "B",
+      "category": "",
+      "element": "Hero button",
+      "property": "y from hero top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "648px",
+      "uiText": "659px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]",
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")",
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 11,
+      "severity": "Major",
+      "fix": "Change y from hero top from 659px to 648px"
+    },
+    {
+      "id": "B37",
+      "audit": "B",
+      "category": "",
+      "element": "Hero button",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "163px",
+      "uiText": "163.91px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B38",
+      "audit": "B",
+      "category": "",
+      "element": "Hero button",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "56px",
+      "uiText": "52px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -4,
+      "severity": "Minor",
+      "fix": "Change height from 52px to 56px"
+    },
+    {
+      "id": "B39",
+      "audit": "B",
+      "category": "",
+      "element": "Hero button",
+      "property": "space below, to hero bottom",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "150px",
+      "uiText": "143px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)",
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity",
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -7,
+      "severity": "Minor",
+      "fix": "Change space below, to hero bottom from 143px to 150px"
+    },
+    {
+      "id": "B40",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages eyebrow",
+      "property": "baseline from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "126.73px",
+      "uiText": "120px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]",
+        "[id=\"advantages-section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\")",
+        "section:has-text(\"What a Strategic Partner May Gain\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6.73,
+      "severity": "Minor",
+      "fix": "Change baseline from section top from 120px to 126.73px"
+    },
+    {
+      "id": "B41",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages eyebrow line",
+      "property": "top from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "146px",
+      "uiText": "136px",
+      "figmaSelectors": [
+        "[id=\"Line\"]",
+        "[id=\"advantages-section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\") + img",
+        "section:has-text(\"What a Strategic Partner May Gain\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -10,
+      "severity": "Major",
+      "fix": "Change top from section top from 136px to 146px"
+    },
+    {
+      "id": "B42",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages eyebrow line",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "48px",
+      "figmaSelectors": [
+        "[id=\"Line\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\") + img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B43",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages eyebrow line",
+      "property": "thickness",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "2px",
+      "uiText": "2px",
+      "figmaSelectors": [
+        "[id=\"Line\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\") + img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B44",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages headline (H2)",
+      "property": "baseline from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "204.09px",
+      "uiText": "185px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]",
+        "[id=\"advantages-section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2",
+        "section:has-text(\"What a Strategic Partner May Gain\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -19.09,
+      "severity": "Major",
+      "fix": "Change baseline from section top from 185px to 204.09px"
+    },
+    {
+      "id": "B45",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages split layout",
+      "property": "top from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "258px",
+      "uiText": "236px",
+      "figmaSelectors": [
+        "[id=\"Split_Layout\"]",
+        "[id=\"advantages-section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul >> xpath=..",
+        "section:has-text(\"What a Strategic Partner May Gain\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -22,
+      "severity": "Major",
+      "fix": "Change top from section top from 236px to 258px"
+    },
+    {
+      "id": "B46",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages image panel",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B47",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages image panel",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "440px",
+      "uiText": "440px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B48",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages image panel",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "620px",
+      "uiText": "647.75px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 27.75,
+      "severity": "Major",
+      "fix": "Change height from 647.75px to 620px"
+    },
+    {
+      "id": "B49",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages image → benefit list",
+      "property": "gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "64px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Content_Column\"]",
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul",
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B50",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit list",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "584px",
+      "uiText": "584px",
+      "figmaSelectors": [
+        "[id=\"Content_Column\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B51",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit list",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "776px",
+      "uiText": "776px",
+      "figmaSelectors": [
+        "[id=\"Content_Column\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B52",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit rows",
+      "property": "pitch (row 1 top → row 2 top)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "104px",
+      "uiText": "101px",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -3,
+      "severity": "Minor",
+      "fix": "Change pitch (row 1 top → row 2 top) from 101px to 104px"
+    },
+    {
+      "id": "B53",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit icon circle",
+      "property": "size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "56px",
+      "uiText": "48px",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change size from 48px to 56px"
+    },
+    {
+      "id": "B54",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit icon → text",
+      "property": "gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(1)",
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li div > span:first-child",
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B55",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit number",
+      "property": "baseline from row top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "17.55px",
+      "uiText": "18px",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(1)",
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li div > span:first-child",
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B56",
+      "audit": "B",
+      "category": "",
+      "element": "Benefit number → text",
+      "property": "baseline distance",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "30.27px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)",
+        "[id^=\"Text_Content\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p",
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li div > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2.27,
+      "severity": "Minor",
+      "fix": "Change baseline distance from 28px to 30.27px"
+    },
+    {
+      "id": "B57",
+      "audit": "B",
+      "category": "",
+      "element": "Advantages section",
+      "property": "bottom padding",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "100px",
+      "uiText": "100px",
+      "figmaSelectors": [
+        "[id=\"advantages-section\"]",
+        "[id=\"Split_Layout\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\")",
+        "section:has-text(\"What a Strategic Partner May Gain\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B58",
+      "audit": "B",
+      "category": "",
+      "element": "Partners eyebrow",
+      "property": "baseline from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "126.73px",
+      "uiText": "120px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_2\"]",
+        "[id=\"Partners_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") p:has-text(\"Ideal Alignment\")",
+        "section:has-text(\"Who BargerTech Wants to Meet\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6.73,
+      "severity": "Minor",
+      "fix": "Change baseline from section top from 120px to 126.73px"
+    },
+    {
+      "id": "B59",
+      "audit": "B",
+      "category": "",
+      "element": "Partners headline (H2)",
+      "property": "baseline from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "204.09px",
+      "uiText": "193px",
+      "figmaSelectors": [
+        "[id=\"Headline_2\"]",
+        "[id=\"Partners_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") h2",
+        "section:has-text(\"Who BargerTech Wants to Meet\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -11.09,
+      "severity": "Major",
+      "fix": "Change baseline from section top from 193px to 204.09px"
+    },
+    {
+      "id": "B60",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "top from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "258px",
+      "uiText": "228px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"]",
+        "[id=\"Partners_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") div.grid",
+        "section:has-text(\"Who BargerTech Wants to Meet\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -30,
+      "severity": "Major",
+      "fix": "Change top from section top from 228px to 258px"
+    },
+    {
+      "id": "B61",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "4",
+      "figmaSelectors": [
+        "[id=\"Row 1\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") div.grid"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 1,
+      "severity": "Major",
+      "fix": "Use a 3-column grid at 1440 (cards 410.67px wide, 24px gaps)"
+    },
+    {
+      "id": "B62",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "410.67px",
+      "uiText": "302px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -108.67,
+      "severity": "Major",
+      "fix": "Change width from 302px to 410.67px"
+    },
+    {
+      "id": "B63",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "320px",
+      "uiText": "320px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B64",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "column gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B65",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "row gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B66",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card text",
+      "property": "left inset",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "32px",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]",
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3",
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B67",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card text",
+      "property": "last baseline → card bottom",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "38.18px",
+      "uiText": "38px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g",
+        "[id^=\"Description\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card",
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B68",
+      "audit": "B",
+      "category": "",
+      "element": "Partner card heading → description",
+      "property": "baseline distance",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "36.82px",
+      "uiText": "37px",
+      "figmaSelectors": [
+        "[id^=\"Description\"]",
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card p",
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B69",
+      "audit": "B",
+      "category": "",
+      "element": "Partners section",
+      "property": "bottom padding",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "100px",
+      "uiText": "100px",
+      "figmaSelectors": [
+        "[id=\"Partners_Section\"]",
+        "[id=\"Bento Grid\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\")",
+        "section:has-text(\"Who BargerTech Wants to Meet\") div.grid"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B70",
+      "audit": "B",
+      "category": "",
+      "element": "Platform layout",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"]",
+        "[id=\"Frame 19\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "B71",
+      "audit": "B",
+      "category": "",
+      "element": "Platform eyebrow",
+      "property": "baseline from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "126.73px",
+      "uiText": "121px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_3\"]",
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") p:has-text(\"Platform Values\")",
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -5.73,
+      "severity": "Minor",
+      "fix": "Change baseline from section top from 121px to 126.73px"
+    },
+    {
+      "id": "B72",
+      "audit": "B",
+      "category": "",
+      "element": "Platform statement (H2)",
+      "property": "baseline from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "204.09px",
+      "uiText": "198px",
+      "figmaSelectors": [
+        "[id=\"Statement\"]",
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") h2",
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6.09,
+      "severity": "Minor",
+      "fix": "Change baseline from section top from 198px to 204.09px"
+    },
+    {
+      "id": "B73",
+      "audit": "B",
+      "category": "",
+      "element": "Bullet list",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "754px",
+      "uiText": "718.13px",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") ul"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -35.87,
+      "severity": "Major",
+      "fix": "Change x from 718.13px to 754px"
+    },
+    {
+      "id": "B74",
+      "audit": "B",
+      "category": "",
+      "element": "Bullet list",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "606px",
+      "uiText": "641.86px",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") ul"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 35.86,
+      "severity": "Major",
+      "fix": "Change width from 641.86px to 606px"
+    },
+    {
+      "id": "B75",
+      "audit": "B",
+      "category": "",
+      "element": "Bullet list",
+      "property": "top from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "100px",
+      "uiText": "101px",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"]",
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") ul",
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 1,
+      "severity": "Minor",
+      "fix": "Change top from section top from 101px to 100px"
+    },
+    {
+      "id": "B76",
+      "audit": "B",
+      "category": "",
+      "element": "Bullet row",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "64px",
+      "uiText": "68px",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 4,
+      "severity": "Minor",
+      "fix": "Change height from 68px to 64px"
+    },
+    {
+      "id": "B77",
+      "audit": "B",
+      "category": "",
+      "element": "Bullet rows",
+      "property": "gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B78",
+      "audit": "B",
+      "category": "",
+      "element": "Check circle",
+      "property": "inset from row left",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "22px",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"] [id^=\"Frame_\"]",
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") .gm-checklist-icon",
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2,
+      "severity": "Minor",
+      "fix": "Change inset from row left from 22px to 20px"
+    },
+    {
+      "id": "B79",
+      "audit": "B",
+      "category": "",
+      "element": "Check circle",
+      "property": "vertical centring in row (offset)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"] [id^=\"Frame_\"]",
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") .gm-checklist-icon",
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B80",
+      "audit": "B",
+      "category": "",
+      "element": "Check circle → bullet text",
+      "property": "gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"] > text",
+        "[id=\"ArchitectureList\"] [id^=\"Frame_\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li p",
+        "section:has-text(\"Commercial Philosophy\") .gm-checklist-icon"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B81",
+      "audit": "B",
+      "category": "",
+      "element": "Platform section",
+      "property": "bottom padding",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "100px",
+      "uiText": "101px",
+      "figmaSelectors": [
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]",
+        "[id=\"ArchitectureList\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\")",
+        "section:has-text(\"Commercial Philosophy\") ul"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 1,
+      "severity": "Minor",
+      "fix": "Change bottom padding from 101px to 100px"
+    },
+    {
+      "id": "B82",
+      "audit": "B",
+      "category": "",
+      "element": "CTA card",
+      "property": "top from section top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "100px",
+      "uiText": "100px",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect",
+        "[id=\"CTA_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal",
+        "section:has-text(\"The objective is not to collect\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B83",
+      "audit": "B",
+      "category": "",
+      "element": "CTA card",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B84",
+      "audit": "B",
+      "category": "",
+      "element": "CTA card",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1280px",
+      "uiText": "1280px",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B85",
+      "audit": "B",
+      "category": "",
+      "element": "CTA card",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "440px",
+      "uiText": "450px",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 10,
+      "severity": "Major",
+      "fix": "Change height from 450px to 440px"
+    },
+    {
+      "id": "B86",
+      "audit": "B",
+      "category": "",
+      "element": "CTA section",
+      "property": "bottom padding",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "100px",
+      "uiText": "100px",
+      "figmaSelectors": [
+        "[id=\"CTA_Section\"]",
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\")",
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B87",
+      "audit": "B",
+      "category": "",
+      "element": "CTA line",
+      "property": "top from card top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "78px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Line_4\"]",
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal .z-10 > div:first-child",
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -14,
+      "severity": "Major",
+      "fix": "Change top from card top from 64px to 78px"
+    },
+    {
+      "id": "B88",
+      "audit": "B",
+      "category": "",
+      "element": "CTA line",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "64px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Line_4\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal .z-10 > div:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B89",
+      "audit": "B",
+      "category": "",
+      "element": "CTA statement",
+      "property": "first baseline from card top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "155.64px",
+      "uiText": "136px",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text",
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p",
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -19.64,
+      "severity": "Major",
+      "fix": "Change first baseline from card top from 136px to 155.64px"
+    },
+    {
+      "id": "B90",
+      "audit": "B",
+      "category": "",
+      "element": "CTA statement",
+      "property": "text-align",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "center",
+      "uiText": "center",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "Figma alignment is inferred from the line start positions",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "B91",
+      "audit": "B",
+      "category": "",
+      "element": "CTA button",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "244px",
+      "uiText": "220px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -24,
+      "severity": "Major",
+      "fix": "Change width from 220px to 244px"
+    },
+    {
+      "id": "B92",
+      "audit": "B",
+      "category": "",
+      "element": "CTA button",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "56px",
+      "uiText": "40px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change height from 40px to 56px"
+    },
+    {
+      "id": "B93",
+      "audit": "B",
+      "category": "",
+      "element": "CTA button",
+      "property": "horizontal centre",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "720px",
+      "uiText": "720px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B94",
+      "audit": "B",
+      "category": "",
+      "element": "CTA button",
+      "property": "space below, to card bottom",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect",
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal",
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change space below, to card bottom from 64px to 80px"
+    },
+    {
+      "id": "B95",
+      "audit": "B",
+      "category": "",
+      "element": "Footer columns",
+      "property": "count",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "5",
+      "uiText": "5",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(1)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B96",
+      "audit": "B",
+      "category": "",
+      "element": "Footer column 2 (Explore)",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "410px",
+      "uiText": "342.39px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -67.61,
+      "severity": "Major",
+      "fix": "Change x from 342.39px to 410px"
+    },
+    {
+      "id": "B97",
+      "audit": "B",
+      "category": "",
+      "element": "Footer column 3 (Partners)",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "660px",
+      "uiText": "604.8px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -55.2,
+      "severity": "Major",
+      "fix": "Change x from 604.8px to 660px"
+    },
+    {
+      "id": "B98",
+      "audit": "B",
+      "category": "",
+      "element": "Footer column 4 (Contact)",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "910px",
+      "uiText": "867.19px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -42.81,
+      "severity": "Major",
+      "fix": "Change x from 867.19px to 910px"
+    },
+    {
+      "id": "B99",
+      "audit": "B",
+      "category": "",
+      "element": "Footer column 5 (Legal)",
+      "property": "x",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1180px",
+      "uiText": "1129.59px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -50.41,
+      "severity": "Major",
+      "fix": "Change x from 1129.59px to 1180px"
+    },
+    {
+      "id": "B100",
+      "audit": "B",
+      "category": "",
+      "element": "Footer company name",
+      "property": "baseline from footer top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "86.27px",
+      "uiText": "86px",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer h3",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B101",
+      "audit": "B",
+      "category": "",
+      "element": "Footer column headings",
+      "property": "baseline from footer top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "77.36px",
+      "uiText": "77px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B102",
+      "audit": "B",
+      "category": "",
+      "element": "Footer heading → first link",
+      "property": "baseline distance",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "40.23px",
+      "uiText": "43px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Links\"] text:not([id=\"Business Development\"])",
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a",
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2.77,
+      "severity": "Minor",
+      "fix": "Change baseline distance from 43px to 40.23px"
+    },
+    {
+      "id": "B103",
+      "audit": "B",
+      "category": "",
+      "element": "Footer links",
+      "property": "row pitch",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "33px",
+      "uiText": "36px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Links\"] text:not([id=\"Business Development\"])"
+      ],
+      "uiSelectors": [
+        "footer ul a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 3,
+      "severity": "Minor",
+      "fix": "Change row pitch from 36px to 33px"
+    },
+    {
+      "id": "B104",
+      "audit": "B",
+      "category": "",
+      "element": "Footer divider 1",
+      "property": "top from footer top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "372px",
+      "uiText": "454px",
+      "figmaSelectors": [
+        "[id=\"DividerLine1\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2)",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 82,
+      "severity": "Major",
+      "fix": "Change top from footer top from 454px to 372px"
+    },
+    {
+      "id": "B105",
+      "audit": "B",
+      "category": "",
+      "element": "Footer disclaimer",
+      "property": "baseline below divider 1",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "42.36px",
+      "uiText": "49px",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]",
+        "[id=\"DividerLine1\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p",
+        "footer > div > div:nth-child(2)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 6.64,
+      "severity": "Minor",
+      "fix": "Change baseline below divider 1 from 49px to 42.36px"
+    },
+    {
+      "id": "B106",
+      "audit": "B",
+      "category": "",
+      "element": "Footer divider 2",
+      "property": "top from footer top",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "486px",
+      "uiText": "603px",
+      "figmaSelectors": [
+        "[id=\"DividerLine2\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(3)",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 117,
+      "severity": "Major",
+      "fix": "Change top from footer top from 603px to 486px"
+    },
+    {
+      "id": "B107",
+      "audit": "B",
+      "category": "",
+      "element": "Footer bottom bar",
+      "property": "space below divider 2",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"Frame_10\"]",
+        "[id=\"DividerLine2\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(3) > div",
+        "footer > div > div:nth-child(3)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B108",
+      "audit": "B",
+      "category": "",
+      "element": "Footer bottom bar",
+      "property": "space to page bottom",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"bargertech-footer\"]",
+        "[id=\"Frame_10\"]"
+      ],
+      "uiSelectors": [
+        "footer",
+        "footer > div > div:nth-child(3) > div"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "B109",
+      "audit": "B",
+      "category": "",
+      "element": "Footer bottom bar",
+      "property": "horizontal centre",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "719.34px",
+      "uiText": "720px",
+      "figmaSelectors": [
+        "[id=\"Frame_10\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(3) > div"
+      ],
+      "note": "Figma width of the row comes from rendered glyphs",
+      "confidence": "Med",
+      "status": "match"
+    }
+  ]
+}

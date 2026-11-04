@@ -1,0 +1,2940 @@
+{
+  "code": "A3",
+  "title": "Figma vs implemented UI (style)",
+  "page": "partner-opportunity",
+  "pageTitle": "Partner Opportunity",
+  "url": "http://192.168.5.250:8081/oem-opportunity",
+  "figma": "design/partner-opportunity-1440.svg",
+  "generated": "2026-11-04T13:35:27.451Z",
+  "score": {
+    "matched": 102,
+    "differ": 30,
+    "unverified": 3,
+    "verifiable": 132,
+    "pct": 77.3
+  },
+  "results": [
+    {
+      "id": "A1",
+      "audit": "A",
+      "category": "Color",
+      "element": "Primary button (nav)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A2",
+      "audit": "A",
+      "category": "Color",
+      "element": "Primary button (nav)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A3",
+      "audit": "A",
+      "category": "Color",
+      "element": "Secondary button (hero)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#CBE0F3",
+      "uiText": "#CBE0F3",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A4",
+      "audit": "A",
+      "category": "Color",
+      "element": "Secondary button (hero)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A5",
+      "audit": "A",
+      "category": "Color",
+      "element": "Secondary button (hero)",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A6",
+      "audit": "A",
+      "category": "Color",
+      "element": "Secondary button (CTA)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#CBE0F3",
+      "uiText": "#CBE0F3",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A7",
+      "audit": "A",
+      "category": "Color",
+      "element": "Secondary button (CTA)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A8",
+      "audit": "A",
+      "category": "Color",
+      "element": "Secondary button (CTA)",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A9",
+      "audit": "A",
+      "category": "Color",
+      "element": "Nav links",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A10",
+      "audit": "A",
+      "category": "Color",
+      "element": "Nav pill",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.078",
+      "uiText": "#FFFFFF @0.08",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A11",
+      "audit": "A",
+      "category": "Color",
+      "element": "Nav pill",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.102",
+      "uiText": "#FFFFFF @0.1",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A12",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero headline (H1)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A13",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero headline accent line",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#3B82F6",
+      "uiText": "#3B82F6",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 > span:last-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A14",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero subtitle",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A15",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow (light sections)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A16",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow (dark section)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#97C2E5",
+      "uiText": "#97C2E5",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") p:has-text(\"Platform Values\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A17",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow line",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "—",
+      "figmaSelectors": [
+        "[id=\"Line\"]"
+      ],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "UI: UI draws this line as an <img>; its colour is inside the image file, not CSS"
+    },
+    {
+      "id": "A18",
+      "audit": "A",
+      "category": "Color",
+      "element": "Section headline (H2)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A19",
+      "audit": "A",
+      "category": "Color",
+      "element": "Benefit number",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li div > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A20",
+      "audit": "A",
+      "category": "Color",
+      "element": "Benefit text",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#2C353F",
+      "uiText": "#2C353F",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A21",
+      "audit": "A",
+      "category": "Color",
+      "element": "Benefit row divider",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#CBE0F3",
+      "uiText": "#CBE0F3",
+      "figmaSelectors": [
+        "[id^=\"Benefit_Row\"] > path[fill]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A22",
+      "audit": "A",
+      "category": "Color",
+      "element": "Benefit icon circle",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#E8F2FA",
+      "uiText": "#E8F2FA",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A23",
+      "audit": "A",
+      "category": "Color",
+      "element": "Card heading (H3)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A24",
+      "audit": "A",
+      "category": "Color",
+      "element": "Card description",
+      "property": "text color (opacity included)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.92",
+      "uiText": "#FFFFFF @0.92",
+      "figmaSelectors": [
+        "[id^=\"Description\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A25",
+      "audit": "A",
+      "category": "Color",
+      "element": "Platform statement (H2)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A26",
+      "audit": "A",
+      "category": "Color",
+      "element": "Bullet row text",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A27",
+      "audit": "A",
+      "category": "Color",
+      "element": "Bullet row",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.031",
+      "uiText": "#FFFFFF @0.03",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A28",
+      "audit": "A",
+      "category": "Color",
+      "element": "Bullet row",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.078",
+      "uiText": "#FFFFFF @0.08",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A29",
+      "audit": "A",
+      "category": "Color",
+      "element": "Check circle",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"] [id^=\"Frame_\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") .gm-checklist-icon"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A30",
+      "audit": "A",
+      "category": "Color",
+      "element": "Platform section",
+      "property": "border color (top and bottom)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"platform-architecture\"] > path"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A31",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA card",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#082E5A",
+      "uiText": "#082E5A",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A32",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA statement",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A33",
+      "audit": "A",
+      "category": "Color",
+      "element": "Advantages section",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FAFBFD",
+      "uiText": "#FAFBFD",
+      "figmaSelectors": [
+        "[id=\"advantages-section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A34",
+      "audit": "A",
+      "category": "Color",
+      "element": "Partners section",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Partners_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A35",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA section",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FAFBFD",
+      "uiText": "#FAFBFD",
+      "figmaSelectors": [
+        "[id=\"CTA_Section\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A36",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#E8F2FA",
+      "uiText": "#E8F2FA",
+      "figmaSelectors": [
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A37",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer company name",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]"
+      ],
+      "uiSelectors": [
+        "footer h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A38",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer column heading",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A39",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer link",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#4A5560",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A40",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer tagline",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#4A5560",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A41",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer disclaimer",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#5C645E",
+      "uiText": "#5C645E",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A42",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer copyright",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#5C645E",
+      "uiText": "#5C645E",
+      "figmaSelectors": [
+        "[id=\"Copyright\"]"
+      ],
+      "uiSelectors": [
+        "footer p:has-text(\"©\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A43",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer brand bar",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#155791",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"GreenDivider\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 + div"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set color to #155791 (now #1B6AAA)"
+    },
+    {
+      "id": "A44",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer dividers",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#D1D5DB",
+      "uiText": "#B8CBDC",
+      "figmaSelectors": [
+        "[id=\"DividerLine1\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set color to #D1D5DB (now #B8CBDC)"
+    },
+    {
+      "id": "A45",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Hero image overlay",
+      "property": "gradient stops",
+      "state": "Default",
+      "viewport": "",
+      "kind": "gradient",
+      "figmaText": "90deg: #020D14 @0.78 0%, #020D14 @0.502 50%, #020D14 @0.2 100%",
+      "uiText": "90deg: #020D14 @0.78 0%, #020D14 @0.5 50%, #020D14 @0.2 100%",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity > div.inset-0"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A46",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Hero image overlay",
+      "property": "gradient angle (deg)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "90",
+      "uiText": "90",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity > div.inset-0"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A47",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Card image overlay",
+      "property": "gradient stops",
+      "state": "Default",
+      "viewport": "",
+      "kind": "gradient",
+      "figmaText": "142.07deg: transparent 0%, #000000 @0.502 55%, #000000 @0.902 100%",
+      "uiText": "180deg: transparent 0%, #000000 @0.5 50%, #000000 @0.9 90%",
+      "figmaSelectors": [
+        "[id^=\"Content Overlay\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card > div.inset-0"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set gradient stops to 142.07deg: transparent 0%, #000000 @0.502 55%, #000000 @0.902 100% (now 180deg: transparent 0%, #000000 @0.5 50%, #000000 @0.9 90%)"
+    },
+    {
+      "id": "A48",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Card image overlay",
+      "property": "gradient angle (deg)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "142.07",
+      "uiText": "180",
+      "figmaSelectors": [
+        "[id^=\"Content Overlay\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card > div.inset-0"
+      ],
+      "note": "SVG and CSS measure gradient lines differently on non-square boxes",
+      "confidence": "Med",
+      "status": "differ",
+      "delta": 37.93,
+      "severity": "Minor",
+      "fix": "Set gradient angle (deg) to 142.07 (now 180)"
+    },
+    {
+      "id": "A49",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Platform section",
+      "property": "background gradient stops",
+      "state": "Default",
+      "viewport": "",
+      "kind": "gradient",
+      "figmaText": "90deg: #050A16 0%, #0B1B3A 55%, #0A1429 100%",
+      "uiText": "90deg: #050A16 0%, #0B1B3A 55%, #0A1429 100%",
+      "figmaSelectors": [
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A50",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Platform section",
+      "property": "gradient angle (deg)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "90",
+      "uiText": "90",
+      "figmaSelectors": [
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A51",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Nav pill",
+      "property": "backdrop blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "blur(12px)",
+      "uiText": "blur(12px)",
+      "figmaSelectors": [
+        "[id=\"Navigation_Top_Bar\"] foreignObject div"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A52",
+      "audit": "A",
+      "category": "Shadow",
+      "element": "Partner card",
+      "property": "box-shadow",
+      "state": "Default",
+      "viewport": "",
+      "kind": "shadow",
+      "figmaText": "0px 10px 28px -10px #000000 @0.078",
+      "uiText": "0px 10px 28px -10px #000000 @0.08",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A53",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Platform glow (left)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA @0.15",
+      "uiText": "#1B6AAA @0.2",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set colour incl. opacity to #1B6AAA @0.15 (now #1B6AAA @0.2)"
+    },
+    {
+      "id": "A54",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Platform glow (left)",
+      "property": "blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "60px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 4,
+      "severity": "Minor",
+      "fix": "Change blur from 64px to 60px"
+    },
+    {
+      "id": "A55",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Platform glow (right)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#3B82F6 @0.1",
+      "uiText": "#3B82F6 @0.2",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set colour incl. opacity to #3B82F6 @0.1 (now #3B82F6 @0.2)"
+    },
+    {
+      "id": "A56",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Platform glow (right)",
+      "property": "blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "70px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6,
+      "severity": "Minor",
+      "fix": "Change blur from 64px to 70px"
+    },
+    {
+      "id": "A57",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (left)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#3B82F6 @0.14",
+      "uiText": "#1B6AAA @0.25",
+      "figmaSelectors": [
+        "[id=\"bg-glow-left\"], [id=\"bg-glow-right\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set colour incl. opacity to #3B82F6 @0.14 (now #1B6AAA @0.25)"
+    },
+    {
+      "id": "A58",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (left)",
+      "property": "blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "50px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"bg-glow-left\"], [id=\"bg-glow-right\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 14,
+      "severity": "Minor",
+      "fix": "Change blur from 64px to 50px"
+    },
+    {
+      "id": "A59",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (right)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#70A6FF @0.14",
+      "uiText": "#3B82F6 @0.2",
+      "figmaSelectors": [
+        "[id=\"bg-glow-left\"], [id=\"bg-glow-right\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set colour incl. opacity to #70A6FF @0.14 (now #3B82F6 @0.2)"
+    },
+    {
+      "id": "A60",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (right)",
+      "property": "blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "65px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"bg-glow-left\"], [id=\"bg-glow-right\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -1,
+      "severity": "Minor",
+      "fix": "Change blur from 64px to 65px"
+    },
+    {
+      "id": "A61",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav links",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A62",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav links",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A63",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav button label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A64",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav button label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A65",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Inter",
+      "uiText": "Inter",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A66",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A67",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A68",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "86px",
+      "uiText": "86px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A69",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "letter-spacing",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A70",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero subtitle",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A71",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero subtitle",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A72",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero subtitle",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 28px to 30px"
+    },
+    {
+      "id": "A73",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero button label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A74",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero button label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A75",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Eyebrow",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A76",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Eyebrow",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A77",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Eyebrow",
+      "property": "letter-spacing",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") p:has-text(\"Strategic Advantage\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A78",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Section headline (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change font-size from 28px to 36px"
+    },
+    {
+      "id": "A79",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Section headline (H2)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A80",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Section headline (H2)",
+      "property": "letter-spacing",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A81",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Benefit number",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "18px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li div > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 16px to 18px"
+    },
+    {
+      "id": "A82",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Benefit number",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li div > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A83",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Benefit text",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Inter",
+      "uiText": "Inter",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A84",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Benefit text",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A85",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Benefit text",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A86",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Benefit text (row 3, two lines)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A87",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card heading (H3)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "22px",
+      "uiText": "22px",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A88",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card heading (H3)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A89",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card heading (H3)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "30px",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A90",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card description",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"Description\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A91",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card description",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id^=\"Description\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A92",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Platform statement (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change font-size from 28px to 36px"
+    },
+    {
+      "id": "A93",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Platform statement (H2)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A94",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Bullet row text",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A95",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Bullet row text",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A96",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA statement",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -4,
+      "severity": "Minor",
+      "fix": "Change font-size from 28px to 32px"
+    },
+    {
+      "id": "A97",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA statement",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set font-weight to 400 (now 500)"
+    },
+    {
+      "id": "A98",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA statement",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "40px",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change line-height (baseline pitch) from 40px to 48px"
+    },
+    {
+      "id": "A99",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA button label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 14px to 16px"
+    },
+    {
+      "id": "A100",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA button label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A101",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer company name",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]"
+      ],
+      "uiSelectors": [
+        "footer h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A102",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer company name",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]"
+      ],
+      "uiSelectors": [
+        "footer h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A103",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer column heading",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A104",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer column heading",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A105",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer column heading",
+      "property": "rendered text (case)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "EXPLORE",
+      "uiText": "Explore",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Render the column headings in uppercase (text-transform: uppercase)"
+    },
+    {
+      "id": "A106",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer link",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Inter",
+      "uiText": "Inter",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A107",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer link",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 12px to 14px"
+    },
+    {
+      "id": "A108",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer link",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A109",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer tagline",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A110",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer tagline",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "21px",
+      "uiText": "21px",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A111",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer disclaimer",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2,
+      "severity": "Minor",
+      "fix": "Change font-size from 14px to 12px"
+    },
+    {
+      "id": "A112",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer disclaimer",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "18px",
+      "uiText": "21px",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 3,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 21px to 18px"
+    },
+    {
+      "id": "A113",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer copyright",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"Copyright\"]"
+      ],
+      "uiSelectors": [
+        "footer p:has-text(\"©\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A114",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Powered-by line",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"PoweredBy\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(3) span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A115",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Primary button (nav)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A116",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Secondary button (hero)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A117",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Secondary button (CTA)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set border-radius to fully rounded (now 16px)"
+    },
+    {
+      "id": "A118",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Nav pill",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A119",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Partner card",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A120",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Advantages image panel",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "24px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set border-radius to 24px (now 16px)"
+    },
+    {
+      "id": "A121",
+      "audit": "A",
+      "category": "Radius",
+      "element": "CTA card",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "24px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Closing Statement Section\"] > g > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set border-radius to 24px (now 16px)"
+    },
+    {
+      "id": "A122",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Bullet row",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "12px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A123",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Benefit icon circle",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A124",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Check circle",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"] [id^=\"Frame_\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") .gm-checklist-icon"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A125",
+      "audit": "A",
+      "category": "Spacing",
+      "element": "Page side margin",
+      "property": "content left edge",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"Split_Layout\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A126",
+      "audit": "A",
+      "category": "Spacing",
+      "element": "Partner card grid",
+      "property": "column gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A127",
+      "audit": "A",
+      "category": "Spacing",
+      "element": "Bullet rows",
+      "property": "gap between rows",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A128",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Benefit icon circle",
+      "property": "size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "56px",
+      "uiText": "48px",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li > span:first-child"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change size from 48px to 56px"
+    },
+    {
+      "id": "A129",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Benefit icon glyph",
+      "property": "stroke colour",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "—",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"] > g"
+      ],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "UI: UI icon is an <img>; its colour and stroke are inside the image file, not CSS"
+    },
+    {
+      "id": "A130",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Benefit icon glyph",
+      "property": "stroke width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "2px",
+      "uiText": "—",
+      "figmaSelectors": [
+        "[id^=\"Icon_Wrap\"] > g"
+      ],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "UI: UI icon is an <img>; its colour and stroke are inside the image file, not CSS"
+    },
+    {
+      "id": "A131",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Check circle",
+      "property": "size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"] [id^=\"Frame_\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") .gm-checklist-icon"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A132",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer mail icon",
+      "property": "stroke colour",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#5C645E",
+      "figmaSelectors": [
+        "[id=\"mail\"] > path"
+      ],
+      "uiSelectors": [
+        "footer a[href^=\"mailto:\"] svg, footer a[href^=\"mailto:\"] img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set stroke colour to #4A5560 (now #5C645E)"
+    },
+    {
+      "id": "A133",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer mail icon",
+      "property": "stroke width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1.5px",
+      "uiText": "1.6px",
+      "figmaSelectors": [
+        "[id=\"mail\"] > path"
+      ],
+      "uiSelectors": [
+        "footer a[href^=\"mailto:\"] svg, footer a[href^=\"mailto:\"] img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A134",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer shield icon",
+      "property": "stroke colour",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#155791",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"shield-check\"] > path"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) svg, footer > div > div:nth-child(2) img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set stroke colour to #155791 (now #1B6AAA)"
+    },
+    {
+      "id": "A135",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer shield icon",
+      "property": "stroke width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "2px",
+      "uiText": "1.6px",
+      "figmaSelectors": [
+        "[id=\"shield-check\"] > path"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) svg, footer > div > div:nth-child(2) img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    }
+  ]
+}

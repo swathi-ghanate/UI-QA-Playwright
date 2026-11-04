@@ -1,0 +1,3378 @@
+{
+  "code": "A3",
+  "title": "Figma vs implemented UI (style)",
+  "page": "home",
+  "pageTitle": "Home",
+  "url": "http://192.168.5.250:8081/",
+  "figma": "design/home-1440.svg",
+  "generated": "2026-11-04T13:35:26.687Z",
+  "score": {
+    "matched": 126,
+    "differ": 28,
+    "unverified": 2,
+    "verifiable": 154,
+    "pct": 81.8
+  },
+  "results": [
+    {
+      "id": "A1",
+      "audit": "A",
+      "category": "Color",
+      "element": "Primary button (nav)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A2",
+      "audit": "A",
+      "category": "Color",
+      "element": "Primary button (nav)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A3",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero button",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) a:has-text(\"Begin Partner Qualification\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A4",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero button",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) a:has-text(\"Begin Partner Qualification\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A5",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero button arrow circle",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"cta-arrow-circle\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has(> header) .gm-cta-hover-arrow"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A6",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA button",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A7",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA button",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A8",
+      "audit": "A",
+      "category": "Color",
+      "element": "Nav links",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A9",
+      "audit": "A",
+      "category": "Color",
+      "element": "Nav pill",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.078",
+      "uiText": "#FFFFFF @0.08",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A10",
+      "audit": "A",
+      "category": "Color",
+      "element": "Nav pill",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.102",
+      "uiText": "#FFFFFF @0.1",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A11",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero headline (H1)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A12",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero headline accent (\"Power\")",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#3B82F6",
+      "uiText": "#3B82F6",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 span span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A13",
+      "audit": "A",
+      "category": "Color",
+      "element": "Hero subtitle",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A14",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow (market)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A15",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow (why partner)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_2\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A16",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow (CTA, dark)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#97C2E5",
+      "uiText": "#97C2E5",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A17",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow line (light sections)",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Line\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now p.uppercase + span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A18",
+      "audit": "A",
+      "category": "Color",
+      "element": "Eyebrow line (CTA)",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#97C2E5",
+      "uiText": "#97C2E5",
+      "figmaSelectors": [
+        "[id=\"Line_5\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity p.uppercase + span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A19",
+      "audit": "A",
+      "category": "Color",
+      "element": "Section headline (H2)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A20",
+      "audit": "A",
+      "category": "Color",
+      "element": "Market number",
+      "property": "text color (opacity included)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#97C2E5 @0.16",
+      "uiText": "#97C2E5 @0.16",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[id^=\"0\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A21",
+      "audit": "A",
+      "category": "Color",
+      "element": "Market heading (H3)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id^=\"Heading 3\"] > text"
+      ],
+      "uiSelectors": [
+        "section#why-now li h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A22",
+      "audit": "A",
+      "category": "Color",
+      "element": "Market text",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#2C353F",
+      "uiText": "#2C353F",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[font-size=\"16\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A23",
+      "audit": "A",
+      "category": "Color",
+      "element": "Market row divider",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#97C2E5",
+      "uiText": "#97C2E5",
+      "figmaSelectors": [
+        "[id^=\"HorizontalBorder\"] > path"
+      ],
+      "uiSelectors": [
+        "section#why-now ul > li"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A24",
+      "audit": "A",
+      "category": "Color",
+      "element": "Market section",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FAFBFD",
+      "uiText": "#FAFBFD",
+      "figmaSelectors": [
+        "[id=\"stats-section-redesign\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A25",
+      "audit": "A",
+      "category": "Color",
+      "element": "Kicker bar",
+      "property": "background (opacity included)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#041C40 @0.831",
+      "uiText": "#041C40 @0.83",
+      "figmaSelectors": [
+        "[id=\"Glass_Kicker_Bar\"]"
+      ],
+      "uiSelectors": [
+        "section#platform > div.z-10"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A26",
+      "audit": "A",
+      "category": "Color",
+      "element": "Kicker bar",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"A platform for energy reliability and control\"]"
+      ],
+      "uiSelectors": [
+        "section#platform > div.z-10 p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A27",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product panel (40 Series)",
+      "property": "background (opacity included)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#041C40 @0.702",
+      "uiText": "#041C40 @0.7",
+      "figmaSelectors": [
+        "[id^=\"Glass_Dashboard_Panel\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A28",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product panel (350 Series)",
+      "property": "background (opacity included)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C @0.702",
+      "uiText": "#1C1C1C @0.7",
+      "figmaSelectors": [
+        "[id^=\"Glass_Dashboard_Panel\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A29",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product panel",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.102",
+      "uiText": "#FFFFFF @0.102",
+      "figmaSelectors": [
+        "[id^=\"Glass_Dashboard_Panel\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A30",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product image tint (40 Series)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#041C40 @0.4",
+      "uiText": "#041C40 @0.55",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > div"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set colour incl. opacity to #041C40 @0.4 (now #041C40 @0.55)"
+    },
+    {
+      "id": "A31",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product image tint (350 Series)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#303030 @0.3",
+      "uiText": "#303030 @0.3",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > div"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A32",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product badge",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA @0.8",
+      "uiText": "#1B6AAA @0.8",
+      "figmaSelectors": [
+        "[id^=\"Brand_Badge\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card span.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A33",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product badge",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id^=\"Brand_Badge\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card span.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A34",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product badge",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.149",
+      "uiText": "#FFFFFF @0.15",
+      "figmaSelectors": [
+        "[id^=\"Brand_Badge\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card span.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A35",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product title (H3)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id^=\"Product_Title\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A36",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product spec",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#CBE0F3",
+      "figmaSelectors": [
+        "[id^=\"Product_Spec\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set text color to #FFFFFF (now #CBE0F3)"
+    },
+    {
+      "id": "A37",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product description",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FAFAFA @0.8",
+      "uiText": "#FAFAFA @0.8",
+      "figmaSelectors": [
+        "[id=\"Frame_3\"] > text, [id=\"Frame_6\"] > text"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative > p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A38",
+      "audit": "A",
+      "category": "Color",
+      "element": "Product divider",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF @0.102",
+      "uiText": "#FFFFFF @0.15",
+      "figmaSelectors": [
+        "[id=\"Line_2\"], [id=\"Line_3\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card div.h-px"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set color to #FFFFFF @0.102 (now #FFFFFF @0.15)"
+    },
+    {
+      "id": "A39",
+      "audit": "A",
+      "category": "Color",
+      "element": "Why partner section",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FAFBFD",
+      "uiText": "#F0F6FC",
+      "figmaSelectors": [
+        "[id=\"why-partner-section\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set background to #FAFBFD (now #F0F6FC)"
+    },
+    {
+      "id": "A40",
+      "audit": "A",
+      "category": "Color",
+      "element": "Why partner headline (H2)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"Headline_2\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A41",
+      "audit": "A",
+      "category": "Color",
+      "element": "Partner card",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"] > g"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A42",
+      "audit": "A",
+      "category": "Color",
+      "element": "Card icon circle",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#E8F2FA",
+      "uiText": "#E8F2FA",
+      "figmaSelectors": [
+        "[id^=\"icon-wrap\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A43",
+      "audit": "A",
+      "category": "Color",
+      "element": "Card text",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#2C353F",
+      "uiText": "#2C353F",
+      "figmaSelectors": [
+        "[id^=\"card-desc\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A44",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA section",
+      "property": "top border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"cta-section\"] > path"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A45",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA statement (H2)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A46",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA subtext",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#94A3B8",
+      "uiText": "#94A3B8",
+      "figmaSelectors": [
+        "[id=\"Subtext\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A47",
+      "audit": "A",
+      "category": "Color",
+      "element": "CTA media frame",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Media Frame\"] > rect"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A48",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#E8F2FA",
+      "uiText": "#E8F2FA",
+      "figmaSelectors": [
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A49",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer company name",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]"
+      ],
+      "uiSelectors": [
+        "footer h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A50",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer column heading",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1C1C1C",
+      "uiText": "#1C1C1C",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A51",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer link",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#4A5560",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A52",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer tagline",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#4A5560",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A53",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer disclaimer",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#5C645E",
+      "uiText": "#5C645E",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A54",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer copyright",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#5C645E",
+      "uiText": "#5C645E",
+      "figmaSelectors": [
+        "[id=\"Copyright\"]"
+      ],
+      "uiSelectors": [
+        "footer p:has-text(\"©\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A55",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer brand bar",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#155791",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"GreenDivider\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 + div"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set color to #155791 (now #1B6AAA)"
+    },
+    {
+      "id": "A56",
+      "audit": "A",
+      "category": "Color",
+      "element": "Footer dividers",
+      "property": "color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#D1D5DB",
+      "uiText": "#B8CBDC",
+      "figmaSelectors": [
+        "[id=\"DividerLine1\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set color to #D1D5DB (now #B8CBDC)"
+    },
+    {
+      "id": "A57",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Hero image overlay",
+      "property": "gradient stops",
+      "state": "Default",
+      "viewport": "",
+      "kind": "gradient",
+      "figmaText": "90deg: #020D14 @0.698 0%, #020D14 @0.302 50%, #020D14 @0.102 100%",
+      "uiText": "90deg: #020D14 @0.7 0%, #020D14 @0.3 50%, #020D14 @0.1 100%",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > div.inset-0:not(.gm-hero-bg-zoom)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A58",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Hero image overlay",
+      "property": "gradient angle (deg)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "90",
+      "uiText": "90",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > div.inset-0:not(.gm-hero-bg-zoom)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A59",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Nav pill",
+      "property": "backdrop blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "blur(12px)",
+      "uiText": "blur(12px)",
+      "figmaSelectors": [
+        "[id=\"Navigation_Top_Bar\"] foreignObject div"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A60",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Kicker bar",
+      "property": "backdrop blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "blur(8px)",
+      "uiText": "blur(16px)",
+      "figmaSelectors": [
+        "[id=\"Overlaid_Section_Header\"] foreignObject div"
+      ],
+      "uiSelectors": [
+        "section#platform > div.z-10"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set backdrop blur to blur(8px) (now blur(16px))"
+    },
+    {
+      "id": "A61",
+      "audit": "A",
+      "category": "Effect",
+      "element": "Product panel",
+      "property": "backdrop blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "blur(16px)",
+      "uiText": "blur(32px)",
+      "figmaSelectors": [
+        "[id^=\"Product_\"] > foreignObject div"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set backdrop blur to blur(16px) (now blur(32px))"
+    },
+    {
+      "id": "A62",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA section",
+      "property": "background gradient stops",
+      "state": "Default",
+      "viewport": "",
+      "kind": "gradient",
+      "figmaText": "90deg: #0A0F1E 0%, #0B1020 100%",
+      "uiText": "135deg: #0A0F1E 0%, #0B1020 100%",
+      "figmaSelectors": [
+        "[id=\"cta-section\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A63",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA section",
+      "property": "gradient angle (deg)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "90",
+      "uiText": "135",
+      "figmaSelectors": [
+        "[id=\"cta-section\"] > g > path[fill^=\"url(\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 45,
+      "severity": "Major",
+      "fix": "Set gradient angle (deg) to 90 (now 135)"
+    },
+    {
+      "id": "A64",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA image shade",
+      "property": "gradient stops",
+      "state": "Default",
+      "viewport": "",
+      "kind": "gradient",
+      "figmaText": "141.59deg: transparent 40%, #0A0F1E @0.8 100%",
+      "uiText": "146deg: transparent 45%, #0A0F1E @0.8 75%",
+      "figmaSelectors": [
+        "[id=\"Industrial Turbine Image\"] > rect:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2 img + div"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set gradient stops to 141.59deg: transparent 40%, #0A0F1E @0.8 100% (now 146deg: transparent 45%, #0A0F1E @0.8 75%)"
+    },
+    {
+      "id": "A65",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (left)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA @0.15",
+      "uiText": "#1B6AAA @0.15",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A66",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (left)",
+      "property": "blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "60px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 4,
+      "severity": "Minor",
+      "fix": "Change blur from 64px to 60px"
+    },
+    {
+      "id": "A67",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (right)",
+      "property": "colour incl. opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#3B82F6 @0.1",
+      "uiText": "#3B82F6 @0.1",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A68",
+      "audit": "A",
+      "category": "Effect",
+      "element": "CTA glow (right)",
+      "property": "blur",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "50px",
+      "uiText": "64px",
+      "figmaSelectors": [
+        "[id=\"Ellipse\"], [id=\"Ellipse_2\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity > div.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 14,
+      "severity": "Minor",
+      "fix": "Change blur from 64px to 50px"
+    },
+    {
+      "id": "A69",
+      "audit": "A",
+      "category": "Shadow",
+      "element": "Partner card",
+      "property": "box-shadow",
+      "state": "Default",
+      "viewport": "",
+      "kind": "shadow",
+      "figmaText": "0px 1px 2px -1px #0A0D12 @0.1",
+      "uiText": "0px 1px 3px 0px #0A0D12 @0.1, 0px 1px 2px -1px #0A0D12 @0.1",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"] > g"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set box-shadow to 0px 1px 2px -1px #0A0D12 @0.1 (now 0px 1px 3px 0px #0A0D12 @0.1, 0px 1px 2px -1px #0A0D12 @0.1)"
+    },
+    {
+      "id": "A70",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav links",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A71",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav links",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A72",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav button label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A73",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Nav button label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A74",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Inter",
+      "uiText": "Inter",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A75",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A76",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A77",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "97px",
+      "uiText": "96px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -1,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 96px to 97px"
+    },
+    {
+      "id": "A78",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero headline (H1)",
+      "property": "letter-spacing",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A79",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero subtitle",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A80",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero subtitle",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A81",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero subtitle",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 28px to 30px"
+    },
+    {
+      "id": "A82",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero button label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) a:has-text(\"Begin Partner Qualification\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A83",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Hero button label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) a:has-text(\"Begin Partner Qualification\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A84",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Eyebrow",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A85",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Eyebrow",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A86",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Eyebrow",
+      "property": "letter-spacing",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A87",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Section headline (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "36px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A88",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Section headline (H2)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A89",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Section headline (H2)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "54px",
+      "uiText": "54px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A90",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market number",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Manrope",
+      "uiText": "Manrope",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[id^=\"0\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A91",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market number",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "112px",
+      "uiText": "112px",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[id^=\"0\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A92",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market number",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "800",
+      "uiText": "800",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[id^=\"0\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A93",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market heading (H3)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "30px",
+      "figmaSelectors": [
+        "[id^=\"Heading 3\"] > text"
+      ],
+      "uiSelectors": [
+        "section#why-now li h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A94",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market heading (H3)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id^=\"Heading 3\"] > text"
+      ],
+      "uiSelectors": [
+        "section#why-now li h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A95",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market text",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Inter",
+      "uiText": "Inter",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[font-size=\"16\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A96",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market text",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[font-size=\"16\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A97",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Market text",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "26px",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[font-size=\"16\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 26px to 24px"
+    },
+    {
+      "id": "A98",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Kicker bar text",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"A platform for energy reliability and control\"]"
+      ],
+      "uiSelectors": [
+        "section#platform > div.z-10 p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A99",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Kicker bar text",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"A platform for energy reliability and control\"]"
+      ],
+      "uiSelectors": [
+        "section#platform > div.z-10 p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Major",
+      "fix": "Set font-weight to 700 (now 600)"
+    },
+    {
+      "id": "A100",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product badge label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id^=\"Brand_Badge\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card span.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A101",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product badge label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id^=\"Brand_Badge\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card span.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A102",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product title (H3)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "32px",
+      "figmaSelectors": [
+        "[id^=\"Product_Title\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A103",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product title (H3)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id^=\"Product_Title\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A104",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product spec",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "18px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"Product_Spec\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 16px to 18px"
+    },
+    {
+      "id": "A105",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product spec",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id^=\"Product_Spec\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A106",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product description",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Frame_3\"] > text, [id=\"Frame_6\"] > text"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative > p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A107",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Product description",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"Frame_3\"] > text, [id=\"Frame_6\"] > text"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative > p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -4,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 20px to 24px"
+    },
+    {
+      "id": "A108",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Why partner headline (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "36px",
+      "figmaSelectors": [
+        "[id=\"Headline_2\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A109",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Why partner headline (H2)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Headline_2\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A110",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card text",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id^=\"card-desc\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A111",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Card text",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id^=\"card-desc\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A112",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA eyebrow",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A113",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA eyebrow",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"Eyebrow_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity p.uppercase"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A114",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA statement (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "36px",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A115",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA statement (H2)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A116",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA statement (H2)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "54px",
+      "uiText": "54px",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A117",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA subtext",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"Subtext\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A118",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA subtext",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "30px",
+      "figmaSelectors": [
+        "[id=\"Subtext\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A119",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA button label",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A120",
+      "audit": "A",
+      "category": "Typography",
+      "element": "CTA button label",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A121",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer company name",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]"
+      ],
+      "uiSelectors": [
+        "footer h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A122",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer company name",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"CompanyName\"]"
+      ],
+      "uiSelectors": [
+        "footer h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A123",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer column heading",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A124",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer column heading",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A125",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer column heading",
+      "property": "rendered text (case)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "EXPLORE",
+      "uiText": "Explore",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "footer p.font-bold"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Render the column headings in uppercase (text-transform: uppercase)"
+    },
+    {
+      "id": "A126",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer link",
+      "property": "font-family",
+      "state": "Default",
+      "viewport": "",
+      "kind": "family",
+      "figmaText": "Inter",
+      "uiText": "Inter",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A127",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer link",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 12px to 14px"
+    },
+    {
+      "id": "A128",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer link",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A129",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer tagline",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A130",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer tagline",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "21px",
+      "uiText": "21px",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A131",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer disclaimer",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2,
+      "severity": "Minor",
+      "fix": "Change font-size from 14px to 12px"
+    },
+    {
+      "id": "A132",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer disclaimer",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "18px",
+      "uiText": "21px",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 3,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 21px to 18px"
+    },
+    {
+      "id": "A133",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Footer copyright",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "12px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"Copyright\"]"
+      ],
+      "uiSelectors": [
+        "footer p:has-text(\"©\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A134",
+      "audit": "A",
+      "category": "Typography",
+      "element": "Powered-by line",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"PoweredBy\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(3) span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A135",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Primary button (nav)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A136",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Hero button",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) a:has-text(\"Begin Partner Qualification\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A137",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Hero button arrow circle",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"cta-arrow-circle\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has(> header) .gm-cta-hover-arrow"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A138",
+      "audit": "A",
+      "category": "Radius",
+      "element": "CTA button",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set border-radius to fully rounded (now 16px)"
+    },
+    {
+      "id": "A139",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Nav pill",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A140",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Kicker bar",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Glass_Kicker_Bar\"]"
+      ],
+      "uiSelectors": [
+        "section#platform > div.z-10"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A141",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Product panel",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id^=\"Glass_Dashboard_Panel\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A142",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Product badge",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id^=\"Brand_Badge\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card span.rounded-full"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A143",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Partner card",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"] > g"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A144",
+      "audit": "A",
+      "category": "Radius",
+      "element": "Card icon circle",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id^=\"icon-wrap\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A145",
+      "audit": "A",
+      "category": "Radius",
+      "element": "CTA media frame",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Media Frame\"] > rect"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A146",
+      "audit": "A",
+      "category": "Spacing",
+      "element": "Page side margin",
+      "property": "content left edge",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity div.grid"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A147",
+      "audit": "A",
+      "category": "Spacing",
+      "element": "Partner card grid",
+      "property": "column gap",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "24px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"] > g"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A148",
+      "audit": "A",
+      "category": "Spacing",
+      "element": "Product panel",
+      "property": "inner padding (text inset)",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "40px",
+      "uiText": "65px",
+      "figmaSelectors": [
+        "[id^=\"Product_Title\"]",
+        "[id^=\"Glass_Dashboard_Panel\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3",
+        "section#platform .gm-product-card > div.relative"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 25,
+      "severity": "Major",
+      "fix": "Change inner padding (text inset) from 65px to 40px"
+    },
+    {
+      "id": "A149",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Card icon circle",
+      "property": "size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "48px",
+      "figmaSelectors": [
+        "[id^=\"icon-wrap\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card > span"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A150",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Card icon glyph",
+      "property": "stroke colour",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "—",
+      "figmaSelectors": [
+        "[id^=\"icon-wrap\"] > g"
+      ],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "UI: UI icon is an <img>; its colour and stroke are inside the image file, not CSS"
+    },
+    {
+      "id": "A151",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Card icon glyph",
+      "property": "stroke width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "2px",
+      "uiText": "—",
+      "figmaSelectors": [
+        "[id^=\"icon-wrap\"] > g"
+      ],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "UI: UI icon is an <img>; its colour and stroke are inside the image file, not CSS"
+    },
+    {
+      "id": "A152",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Hero button arrow circle",
+      "property": "size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "24px",
+      "figmaSelectors": [
+        "[id=\"cta-arrow-circle\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has(> header) .gm-cta-hover-arrow"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change size from 24px to 32px"
+    },
+    {
+      "id": "A153",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer mail icon",
+      "property": "stroke colour",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#5C645E",
+      "figmaSelectors": [
+        "[id=\"mail\"] > path"
+      ],
+      "uiSelectors": [
+        "footer a[href^=\"mailto:\"] svg, footer a[href^=\"mailto:\"] img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set stroke colour to #4A5560 (now #5C645E)"
+    },
+    {
+      "id": "A154",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer mail icon",
+      "property": "stroke width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1.5px",
+      "uiText": "1.6px",
+      "figmaSelectors": [
+        "[id=\"mail\"] > path"
+      ],
+      "uiSelectors": [
+        "footer a[href^=\"mailto:\"] svg, footer a[href^=\"mailto:\"] img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "A155",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer shield icon",
+      "property": "stroke colour",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#155791",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"shield-check\"] > path"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) svg, footer > div > div:nth-child(2) img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set stroke colour to #155791 (now #1B6AAA)"
+    },
+    {
+      "id": "A156",
+      "audit": "A",
+      "category": "Icon",
+      "element": "Footer shield icon",
+      "property": "stroke width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "2px",
+      "uiText": "1.6px",
+      "figmaSelectors": [
+        "[id=\"shield-check\"] > path"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) svg, footer > div > div:nth-child(2) img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    }
+  ]
+}

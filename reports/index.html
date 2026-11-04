@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI fidelity reports</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@700;800&display=swap">
+<style>
+:root {
+  --paper: #F5F6F8; --surface: #FFFFFF; --ink: #14171D; --muted: #586070; --rule: #D9DDE4;
+  --accent: #C4225C; --bar: #3A4150; --code-bg: #ECEEF2;
+  --match: #1C7547; --match-bg: #E4F2EA; --diff: #B0261D; --diff-bg: #FBE9E7; --unsure: #8A5700; --unsure-bg: #FFF2D9;
+  --font-display: "Schibsted Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #111318; --surface: #1A1D24; --ink: #E8EAEE; --muted: #A0A7B4; --rule: #2E333D;
+    --accent: #F0679A; --bar: #C3C9D4; --code-bg: #232730;
+    --match: #63CC95; --match-bg: #15301F; --diff: #F2877E; --diff-bg: #3A1B19; --unsure: #E8B04B; --unsure-bg: #33270F;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0 max(16px, env(safe-area-inset-right, 0px)) 64px max(16px, env(safe-area-inset-left, 0px));
+  background: var(--paper); color: var(--ink); font: 16px/1.55 var(--font-body); }
+a { color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2 { font-family: var(--font-display); line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(1.9rem, 5vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-size: 1.4rem; font-weight: 700; }
+p { margin: 0; }
+code, .mono { font-family: var(--font-mono); font-size: 0.86em; }
+code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
+.wrap { max-width: 1180px; margin-inline: auto; display: grid; gap: 14px; }
+.label { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.muted { color: var(--muted); }
+.small { font-size: 0.86rem; }
+header.wrap { padding-block: 40px 8px; }
+section { padding-top: 40px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 20px; color: var(--muted); font-size: 0.9rem; }
+.meta a { overflow-wrap: anywhere; }
+.scores { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.score { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.score-head { display: flex; align-items: baseline; gap: 8px; }
+.letter { font-family: var(--font-display); font-weight: 800; width: 1.6rem; height: 1.6rem; display: grid; place-items: center; border-radius: 5px; background: var(--ink); color: var(--paper); font-size: 0.9rem; flex: none; }
+.score strong { font-family: var(--font-display); }
+.big { font-family: var(--font-display); font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.track { height: 6px; background: var(--code-bg); border-radius: 3px; overflow: hidden; }
+.track i { display: block; height: 100%; background: var(--bar); border-radius: 3px; }
+.counts { font-size: 0.84rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.counts b { color: var(--diff); font-weight: 700; }
+.notrun { color: var(--muted); font-size: 0.86rem; }
+.overall { font-size: 1.02rem; }
+ol.fixes { margin: 0; padding-left: 1.6rem; display: grid; gap: 8px; }
+ol.fixes li::marker { font-family: var(--font-mono); color: var(--muted); }
+.sev { font-family: var(--font-mono); font-size: 0.74rem; font-weight: 500; border-radius: 4px; padding: 1px 7px; white-space: nowrap; }
+.sev.Blocker, .sev.Major { color: var(--diff); background: var(--diff-bg); }
+.sev.Minor { color: var(--unsure); background: var(--unsure-bg); }
+.chip { font-family: var(--font-mono); font-size: 0.74rem; font-weight: 500; border-radius: 4px; padding: 1px 7px; white-space: nowrap; }
+.chip.match { color: var(--match); background: var(--match-bg); }
+.chip.differ { color: var(--diff); background: var(--diff-bg); }
+.chip.unverified { color: var(--unsure); background: var(--unsure-bg); }
+.filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: end; }
+.filters label { display: grid; gap: 3px; font-size: 0.8rem; color: var(--muted); }
+.filters select, .filters input { font: inherit; font-size: 0.92rem; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; min-width: 0; }
+.filters input { width: min(260px, 100%); }
+.table-scroll { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+thead th { font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); white-space: nowrap; position: sticky; top: 0; background: var(--surface); }
+tbody tr:last-child > * { border-bottom: 0; }
+td.val { font-family: var(--font-mono); font-size: 0.82rem; max-width: 260px; overflow-wrap: anywhere; }
+td.id { font-family: var(--font-mono); font-size: 0.8rem; white-space: nowrap; color: var(--muted); }
+td.el { min-width: 180px; }
+td.todo { min-width: 220px; }
+.why { display: block; color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
+button.copy { font: inherit; font-size: 0.76rem; color: var(--accent); background: none; border: 1px solid var(--rule); border-radius: 5px; padding: 1px 8px; cursor: pointer; margin-top: 4px; }
+.empty { padding: 18px; color: var(--muted); }
+.strip { display: flex; gap: 12px; align-items: flex-end; overflow-x: auto; padding-bottom: 6px; }
+.strip figure { margin: 0; display: grid; gap: 4px; flex: none; }
+.strip .frame { height: 200px; overflow: hidden; border: 1px solid var(--rule); border-radius: 4px; background: var(--code-bg); }
+.strip img { width: 100%; display: block; }
+.strip figcaption { font-family: var(--font-mono); font-size: 0.76rem; color: var(--muted); }
+ul.details { margin: 0; padding-left: 1.2rem; display: grid; gap: 4px; }
+footer.wrap { padding-top: 40px; border-top: 1px solid var(--rule); margin-top: 40px; padding-block: 16px 0; }
+@media (max-width: 900px) { .scores { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .scores { grid-template-columns: minmax(0, 1fr); } }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <p class="label">UI Fidelity QA framework</p>
+  <h1>UI fidelity reports</h1>
+  <p class="muted">The live website checked against the Figma design, page by page. Open a page for what to fix first and every check.</p>
+</header>
+<section class="wrap" aria-labelledby="h-pages">
+  <h2 id="h-pages">Pages</h2>
+  <div class="table-scroll"><table>
+    <thead><tr><th scope="col">Page</th><th scope="col">A Style guide</th><th scope="col">B Layout</th><th scope="col">C Responsive</th><th scope="col">D Component states</th><th scope="col">E Text</th><th scope="col">Differences</th><th scope="col">Could not verify</th><th scope="col">Last run</th></tr></thead>
+    <tbody><tr>
+      <th scope="row"><a href="home/report.html">Home</a><span class="why mono">http://192.168.5.250:8081/</span></th>
+      <td><strong class="mono">81.8%</strong><div class="track"><i style="width:81.8%"></i></div></td><td><strong class="mono">38%</strong><div class="track"><i style="width:38%"></i></div></td><td><strong class="mono">75.5%</strong><div class="track"><i style="width:75.5%"></i></div></td><td><strong class="mono">74.4%</strong><div class="track"><i style="width:74.4%"></i></div></td><td><strong class="mono">93.2%</strong><div class="track"><i style="width:93.2%"></i></div></td>
+      <td><strong>147</strong> <span class="muted small">(70 Major)</span></td>
+      <td>10</td>
+      <td class="small">4 Nov 2026, 19:06</td>
+    </tr>
+<tr>
+      <th scope="row"><a href="partner-opportunity/report.html">Partner Opportunity</a><span class="why mono">http://192.168.5.250:8081/oem-opportunity</span></th>
+      <td><strong class="mono">77.3%</strong><div class="track"><i style="width:77.3%"></i></div></td><td><strong class="mono">45.9%</strong><div class="track"><i style="width:45.9%"></i></div></td><td><strong class="mono">70.8%</strong><div class="track"><i style="width:70.8%"></i></div></td><td><strong class="mono">76.6%</strong><div class="track"><i style="width:76.6%"></i></div></td><td><strong class="mono">90.2%</strong><div class="track"><i style="width:90.2%"></i></div></td>
+      <td><strong>158</strong> <span class="muted small">(69 Major)</span></td>
+      <td>11</td>
+      <td class="small">4 Nov 2026, 19:06</td>
+    </tr></tbody>
+  </table></div>
+</section>
+<section class="wrap" aria-labelledby="h-run">
+  <h2 id="h-run">Run again</h2>
+  <p>From <code>C:\UI-QA-Playwright</code>: <code>npx playwright test</code>. Another site: set <code>BASE_URL</code> first (see <code>README.md</code>).</p>
+  <p class="small muted">Test run details (timings, errors, every difference as an assertion): <a href="playwright-report/index.html">Playwright report</a>.</p>
+</section>
+<footer class="wrap"><p class="small muted">Rules: differences under 1px and the same colour written differently (#FFF = #FFFFFF = rgb(255, 255, 255)) count as matches.
+A check is "Could not verify" when one side has no value; it is never guessed and is left out of the score.
+Score = matched ÷ (matched + different). Major: colour, font family or weight, structure, wording, line count and gaps of 8px or more. Minor: everything else.
+Confidence High: both values read directly. Med: derived, or matched by similar wording (the row says why).</p></footer>
+</body>
+</html>

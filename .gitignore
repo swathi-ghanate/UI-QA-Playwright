@@ -1,8 +1,9 @@
-
-# Playwright
+# Dependencies
 node_modules/
-/test-results/
-/playwright-report/
+
+# Playwright's own output, rebuilt on every run (the audit results in reports/ are kept)
+reports/playwright-report/
+reports/playwright-artifacts/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
