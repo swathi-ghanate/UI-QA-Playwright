@@ -1,0 +1,1194 @@
+{
+  "code": "C3",
+  "title": "Figma vs implemented UI (responsive)",
+  "page": "partner-opportunity",
+  "pageTitle": "Partner Opportunity",
+  "url": "http://192.168.5.250:8081/oem-opportunity",
+  "figma": "design/partner-opportunity-1440.svg",
+  "generated": "2026-11-04T13:36:00.417Z",
+  "score": {
+    "matched": 34,
+    "differ": 14,
+    "unverified": 6,
+    "verifiable": 48,
+    "pct": 70.8
+  },
+  "results": [
+    {
+      "id": "C1",
+      "audit": "C",
+      "category": "",
+      "element": "Frame / viewport",
+      "property": "width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "1440px",
+      "uiText": "1440px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C2",
+      "audit": "C",
+      "category": "",
+      "element": "Sections",
+      "property": "stacking order",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[hero, advantages, partners, platform, cta, footer]",
+      "uiText": "[hero, advantages, partners, platform, cta, footer]",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)",
+        "[id=\"advantages-section\"]",
+        "[id=\"Partners_Section\"]",
+        "[id=\"platform-architecture\"] > g > path[fill^=\"url(\"]",
+        "[id=\"CTA_Section\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity",
+        "section:has-text(\"What a Strategic Partner May Gain\")",
+        "section:has-text(\"Who BargerTech Wants to Meet\")",
+        "section:has-text(\"Commercial Philosophy\")",
+        "section:has-text(\"The objective is not to collect\")",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C3",
+      "audit": "C",
+      "category": "",
+      "element": "Header",
+      "property": "position relative to hero",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "overlays the hero",
+      "uiText": "overlays the hero",
+      "figmaSelectors": [
+        "[id=\"Navigation_Top_Bar\"]",
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "header",
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C4",
+      "audit": "C",
+      "category": "",
+      "element": "Desktop nav (7 links)",
+      "property": "shown or hidden",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "shown",
+      "uiText": "shown",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C5",
+      "audit": "C",
+      "category": "",
+      "element": "Nav button",
+      "property": "shown or hidden",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "shown",
+      "uiText": "shown",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C6",
+      "audit": "C",
+      "category": "",
+      "element": "Hamburger menu",
+      "property": "shown or hidden",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "not shown",
+      "uiText": "not shown",
+      "figmaSelectors": [],
+      "uiSelectors": [
+        "header button"
+      ],
+      "note": "Figma has no hamburger layer at 1440",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C7",
+      "audit": "C",
+      "category": "",
+      "element": "Hero",
+      "property": "height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "854px",
+      "uiText": "854px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C8",
+      "audit": "C",
+      "category": "",
+      "element": "Hero content",
+      "property": "left padding (text start)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C9",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"Split_Layout\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C10",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages",
+      "property": "order (image vs list)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "image left, list right",
+      "uiText": "image left, list right",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect",
+        "[id=\"Content_Column\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in",
+        "section:has-text(\"What a Strategic Partner May Gain\") ul"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C11",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "4",
+      "figmaSelectors": [
+        "[id=\"Row 1\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") div.grid"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 1,
+      "severity": "Major",
+      "fix": "Show 3 columns at 1440 (the 4-column xl layout is not in the design)"
+    },
+    {
+      "id": "C12",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "rows",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C13",
+      "audit": "C",
+      "category": "",
+      "element": "Platform",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"ArchitectureList\"]",
+        "[id=\"Frame 19\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") ul >> xpath=.."
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C14",
+      "audit": "C",
+      "category": "",
+      "element": "Footer",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "5",
+      "uiText": "5",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(1)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C15",
+      "audit": "C",
+      "category": "",
+      "element": "CTA",
+      "property": "content alignment",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "center",
+      "uiText": "center",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C16",
+      "audit": "C",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "3",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)",
+        "[id=\"hero-headline-1\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C17",
+      "audit": "C",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "4",
+      "uiText": "4",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C18",
+      "audit": "C",
+      "category": "",
+      "element": "Section headlines (H2)",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[1, 1, 1]",
+      "uiText": "[1, 1, 1]",
+      "figmaSelectors": [
+        "[id=\"Headline\"]",
+        "[id=\"Headline_2\"]",
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2",
+        "section:has-text(\"Who BargerTech Wants to Meet\") h2",
+        "section:has-text(\"Commercial Philosophy\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C19",
+      "audit": "C",
+      "category": "",
+      "element": "Benefit texts",
+      "property": "lines per row",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[1, 1, 2, 1, 1, 2]",
+      "uiText": "[1, 1, 2, 1, 1, 2]",
+      "figmaSelectors": [
+        "[id^=\"Text_Content\"] > text:nth-of-type(2)"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") ul > li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C20",
+      "audit": "C",
+      "category": "",
+      "element": "Card headings",
+      "property": "lines per card",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[2, 2, 2, 2, 2, 2]",
+      "uiText": "[3, 3, 3, 2, 2, 2]",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set lines per card to [2, 2, 2, 2, 2, 2] (now [3, 3, 3, 2, 2, 2])"
+    },
+    {
+      "id": "C21",
+      "audit": "C",
+      "category": "",
+      "element": "Card descriptions",
+      "property": "lines per card",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[2, 2, 2, 3, 2, 2]",
+      "uiText": "[3, 3, 3, 4, 4, 3]",
+      "figmaSelectors": [
+        "[id^=\"Description\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set lines per card to [2, 2, 2, 3, 2, 2] (now [3, 3, 3, 4, 4, 3])"
+    },
+    {
+      "id": "C22",
+      "audit": "C",
+      "category": "",
+      "element": "Bullet texts",
+      "property": "lines per row",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[1, 1, 1, 1, 1]",
+      "uiText": "[1, 1, 1, 1, 1]",
+      "figmaSelectors": [
+        "[id^=\"BulletRow\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Commercial Philosophy\") li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C23",
+      "audit": "C",
+      "category": "",
+      "element": "CTA statement",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "5",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2,
+      "severity": "Minor",
+      "fix": "Set lines to 3 (now 5)"
+    },
+    {
+      "id": "C24",
+      "audit": "C",
+      "category": "",
+      "element": "Footer tagline",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "3",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C25",
+      "audit": "C",
+      "category": "",
+      "element": "Footer disclaimer",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C26",
+      "audit": "C",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C27",
+      "audit": "C",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "86px",
+      "uiText": "86px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C28",
+      "audit": "C",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C29",
+      "audit": "C",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 28px to 30px"
+    },
+    {
+      "id": "C30",
+      "audit": "C",
+      "category": "",
+      "element": "Section headline (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change font-size from 28px to 36px"
+    },
+    {
+      "id": "C31",
+      "audit": "C",
+      "category": "",
+      "element": "Card heading (H3)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "22px",
+      "uiText": "22px",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C32",
+      "audit": "C",
+      "category": "",
+      "element": "Card heading (H3)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "30px",
+      "figmaSelectors": [
+        "[id^=\"Heading\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C33",
+      "audit": "C",
+      "category": "",
+      "element": "CTA statement",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -4,
+      "severity": "Minor",
+      "fix": "Change font-size from 28px to 32px"
+    },
+    {
+      "id": "C34",
+      "audit": "C",
+      "category": "",
+      "element": "CTA statement",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "40px",
+      "figmaSelectors": [
+        "[id=\"Statement Container\"] > text"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") .gm-reveal p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -8,
+      "severity": "Major",
+      "fix": "Change line-height (baseline pitch) from 40px to 48px"
+    },
+    {
+      "id": "C35",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C36",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "source aspect ratio",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "1.5",
+      "uiText": "1.5",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C37",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "rendered height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "960px",
+      "uiText": "960px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C38",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "horizontal crop offset",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C39",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "vertical crop offset",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "-53px",
+      "uiText": "-68.9px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -15.9,
+      "severity": "Minor",
+      "fix": "Centre the image vertically (Figma crop offset -53px, UI -68.9px); check background-position"
+    },
+    {
+      "id": "C40",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages image",
+      "property": "frame width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "440px",
+      "uiText": "438px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change frame width from 438px to 440px"
+    },
+    {
+      "id": "C41",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages image",
+      "property": "frame height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "620px",
+      "uiText": "645.75px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 25.75,
+      "severity": "Major",
+      "fix": "Change frame height from 645.75px to 620px"
+    },
+    {
+      "id": "C42",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages image",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in img"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C43",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages image",
+      "property": "source aspect ratio",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "0.68",
+      "uiText": "0.68",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C44",
+      "audit": "C",
+      "category": "",
+      "element": "Advantages image",
+      "property": "vertical crop offset",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "-14.36px",
+      "uiText": "-0.01px",
+      "figmaSelectors": [
+        "[id=\"Visual_Panel\"] > rect"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"What a Strategic Partner May Gain\") .gm-scale-in img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 14.35,
+      "severity": "Minor",
+      "fix": "Change vertical crop offset from -0.01px to -14.36px"
+    },
+    {
+      "id": "C45",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card image",
+      "property": "frame width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "410.67px",
+      "uiText": "302px",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -108.67,
+      "severity": "Major",
+      "fix": "Change frame width from 302px to 410.67px"
+    },
+    {
+      "id": "C46",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card image",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card img"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C47",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card 3 image",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "stretched (non-uniform scale)",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"Bento Grid\"] [id^=\"Card \"] > g"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"Who BargerTech Wants to Meet\") .gm-partner-image-card img"
+      ],
+      "note": "Figma stretches this image non-uniformly; the UI should not copy that",
+      "confidence": "Med",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Keep object-fit: cover in the UI and ask design to fix the stretched image in Figma"
+    },
+    {
+      "id": "C48",
+      "audit": "C",
+      "category": "",
+      "element": "Logo",
+      "property": "size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "236×80",
+      "uiText": "236×80",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C-1280",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1280px",
+      "state": "Default",
+      "viewport": "1280",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1280px. UI at 1280: desktop nav shown, hamburger hidden, partner grid 4 column(s), advantages 2 column(s), H1 80px/86px, 3 lines, hero 854px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-1279",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1279px",
+      "state": "Default",
+      "viewport": "1279",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1279px. UI at 1279: desktop nav hidden, hamburger shown, partner grid 1 column(s), advantages 2 column(s), H1 80px/86px, 3 lines, hero 854px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-1024",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1024px",
+      "state": "Default",
+      "viewport": "1024",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1024px. UI at 1024: desktop nav hidden, hamburger shown, partner grid 1 column(s), advantages 2 column(s), H1 80px/86px, 3 lines, hero 854px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-1023",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1023px",
+      "state": "Default",
+      "viewport": "1023",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1023px. UI at 1023: desktop nav hidden, hamburger shown, partner grid 1 column(s), advantages 1 column(s), H1 48px/48px, 3 lines, hero 620px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-768",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "768px",
+      "state": "Default",
+      "viewport": "768",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 768px. UI at 768: desktop nav hidden, hamburger shown, partner grid 1 column(s), advantages 1 column(s), H1 48px/48px, 3 lines, hero 620px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-375",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "375px",
+      "state": "Default",
+      "viewport": "375",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 375px. UI at 375: desktop nav hidden, hamburger shown, partner grid 1 column(s), advantages 1 column(s), H1 36px/36px, 3 lines, hero 580px tall, horizontal scroll no"
+    }
+  ]
+}

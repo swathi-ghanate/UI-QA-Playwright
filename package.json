@@ -1,9 +1,12 @@
 {
   "name": "ui-qa-playwright",
   "version": "1.0.0",
-  "description": "",
+  "description": "UI fidelity QA: checks the live website against the Figma design (audits A-E, one report per page)",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "report": "node lib/html-report.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

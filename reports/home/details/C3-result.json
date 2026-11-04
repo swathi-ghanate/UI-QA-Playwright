@@ -1,0 +1,1208 @@
+{
+  "code": "C3",
+  "title": "Figma vs implemented UI (responsive)",
+  "page": "home",
+  "pageTitle": "Home",
+  "url": "http://192.168.5.250:8081/",
+  "figma": "design/home-1440.svg",
+  "generated": "2026-11-04T13:35:57.605Z",
+  "score": {
+    "matched": 37,
+    "differ": 12,
+    "unverified": 6,
+    "verifiable": 49,
+    "pct": 75.5
+  },
+  "results": [
+    {
+      "id": "C1",
+      "audit": "C",
+      "category": "",
+      "element": "Frame / viewport",
+      "property": "width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "1440px",
+      "uiText": "1440px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C2",
+      "audit": "C",
+      "category": "",
+      "element": "Sections",
+      "property": "stacking order",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[hero, market, products, why partner, cta, footer]",
+      "uiText": "[hero, market, products, why partner, cta, footer]",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)",
+        "[id=\"stats-section-redesign\"]",
+        "[id=\"products-section-redesign\"]",
+        "[id=\"why-partner-section\"]",
+        "[id=\"cta-section\"] > g > path[fill^=\"url(\"]",
+        "[id=\"bargertech-footer\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header)",
+        "section#why-now",
+        "section#platform",
+        "section#oem-opportunity",
+        "section#partner-opportunity",
+        "footer"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C3",
+      "audit": "C",
+      "category": "",
+      "element": "Header",
+      "property": "position relative to hero",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "overlays the hero",
+      "uiText": "overlays the hero",
+      "figmaSelectors": [
+        "[id=\"Navigation_Top_Bar\"]",
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "header",
+        "section:has(> header)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C4",
+      "audit": "C",
+      "category": "",
+      "element": "Desktop nav (7 links)",
+      "property": "shown or hidden",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "shown",
+      "uiText": "shown",
+      "figmaSelectors": [
+        "[id=\"Nav_Pill_Container\"]"
+      ],
+      "uiSelectors": [
+        "header nav"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C5",
+      "audit": "C",
+      "category": "",
+      "element": "Nav button",
+      "property": "shown or hidden",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "shown",
+      "uiText": "shown",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C6",
+      "audit": "C",
+      "category": "",
+      "element": "Hamburger menu",
+      "property": "shown or hidden",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "not shown",
+      "uiText": "not shown",
+      "figmaSelectors": [],
+      "uiSelectors": [
+        "header button"
+      ],
+      "note": "Figma has no hamburger layer at 1440",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C7",
+      "audit": "C",
+      "category": "",
+      "element": "Hero",
+      "property": "height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "940px",
+      "uiText": "861px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -79,
+      "severity": "Major",
+      "fix": "Change height from 861px to 940px"
+    },
+    {
+      "id": "C8",
+      "audit": "C",
+      "category": "",
+      "element": "Hero content",
+      "property": "left padding (text start)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C9",
+      "audit": "C",
+      "category": "",
+      "element": "Market",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"Header Area\"]",
+        "[id=\"Container\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now > div.grid"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C10",
+      "audit": "C",
+      "category": "",
+      "element": "Products",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"split-grid\"]"
+      ],
+      "uiSelectors": [
+        "section#platform > div.grid"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C11",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "4",
+      "uiText": "4",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity div.grid"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C12",
+      "audit": "C",
+      "category": "",
+      "element": "Partner card grid",
+      "property": "rows",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "1",
+      "uiText": "1",
+      "figmaSelectors": [
+        "[id=\"Frame 13\"] > g"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C13",
+      "audit": "C",
+      "category": "",
+      "element": "CTA",
+      "property": "order (text vs media)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "text left, media right",
+      "uiText": "text left, media right",
+      "figmaSelectors": [
+        "[id=\"Statement\"]",
+        "[id=\"Media Frame\"] > rect"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2",
+        "section#partner-opportunity div.border-2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C14",
+      "audit": "C",
+      "category": "",
+      "element": "Footer",
+      "property": "columns",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "5",
+      "uiText": "5",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(1)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C15",
+      "audit": "C",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "3",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C16",
+      "audit": "C",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "5",
+      "uiText": "7",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 2,
+      "severity": "Minor",
+      "fix": "Let the hero subtitle wrap to 5 lines like Figma (now 7); check its max-width"
+    },
+    {
+      "id": "C17",
+      "audit": "C",
+      "category": "",
+      "element": "Section headlines (H2)",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[4, 1, 4]",
+      "uiText": "[4, 1, 4]",
+      "figmaSelectors": [
+        "[id=\"Headline\"]",
+        "[id=\"Headline_2\"]",
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now h2",
+        "section#oem-opportunity h2",
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C18",
+      "audit": "C",
+      "category": "",
+      "element": "Market headings",
+      "property": "lines per row",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[1, 1, 1, 1]",
+      "uiText": "[1, 1, 1, 1]",
+      "figmaSelectors": [
+        "[id^=\"Heading 3\"] > text"
+      ],
+      "uiSelectors": [
+        "section#why-now li h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C19",
+      "audit": "C",
+      "category": "",
+      "element": "Market texts",
+      "property": "lines per row",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[2, 2, 2, 2]",
+      "uiText": "[2, 2, 2, 2]",
+      "figmaSelectors": [
+        "[id=\"Container\"] text[font-size=\"16\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now li p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C20",
+      "audit": "C",
+      "category": "",
+      "element": "Product descriptions",
+      "property": "lines per panel",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[2, 2]",
+      "uiText": "[2, 2]",
+      "figmaSelectors": [
+        "[id=\"Frame_3\"] > text, [id=\"Frame_6\"] > text"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card > div.relative > p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C21",
+      "audit": "C",
+      "category": "",
+      "element": "Card texts",
+      "property": "lines per card",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "list",
+      "figmaText": "[4, 2, 3, 3]",
+      "uiText": "[4, 2, 4, 3]",
+      "figmaSelectors": [
+        "[id^=\"card-desc\"]"
+      ],
+      "uiSelectors": [
+        "section#oem-opportunity .gm-partner-card p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set lines per card to [4, 2, 3, 3] (now [4, 2, 4, 3])"
+    },
+    {
+      "id": "C22",
+      "audit": "C",
+      "category": "",
+      "element": "CTA subtext",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"Subtext\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2 + p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C23",
+      "audit": "C",
+      "category": "",
+      "element": "Footer tagline",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "3",
+      "uiText": "3",
+      "figmaSelectors": [
+        "[id=\"BrandTagline\"]"
+      ],
+      "uiSelectors": [
+        "footer h3 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C24",
+      "audit": "C",
+      "category": "",
+      "element": "Footer disclaimer",
+      "property": "lines",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "2",
+      "uiText": "2",
+      "figmaSelectors": [
+        "[id=\"DisclaimerText\"]"
+      ],
+      "uiSelectors": [
+        "footer > div > div:nth-child(2) > div:first-child p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C25",
+      "audit": "C",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C26",
+      "audit": "C",
+      "category": "",
+      "element": "Hero headline (H1)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "97px",
+      "uiText": "96px",
+      "figmaSelectors": [
+        "[id=\"hero-headline-1\"] > text:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -1,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 96px to 97px"
+    },
+    {
+      "id": "C27",
+      "audit": "C",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "20px",
+      "uiText": "20px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C28",
+      "audit": "C",
+      "category": "",
+      "element": "Hero subtitle",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "28px",
+      "figmaSelectors": [
+        "[id=\"hero-subtitle\"]"
+      ],
+      "uiSelectors": [
+        "section:has(> header) h1 ~ p"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change line-height (baseline pitch) from 28px to 30px"
+    },
+    {
+      "id": "C29",
+      "audit": "C",
+      "category": "",
+      "element": "Section headline (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "36px",
+      "figmaSelectors": [
+        "[id=\"Headline\"]"
+      ],
+      "uiSelectors": [
+        "section#why-now h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C30",
+      "audit": "C",
+      "category": "",
+      "element": "Market heading (H3)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "30px",
+      "uiText": "30px",
+      "figmaSelectors": [
+        "[id^=\"Heading 3\"] > text"
+      ],
+      "uiSelectors": [
+        "section#why-now li h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C31",
+      "audit": "C",
+      "category": "",
+      "element": "Product title (H3)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "32px",
+      "uiText": "32px",
+      "figmaSelectors": [
+        "[id^=\"Product_Title\"]"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card h3"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C32",
+      "audit": "C",
+      "category": "",
+      "element": "CTA statement (H2)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "36px",
+      "uiText": "36px",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C33",
+      "audit": "C",
+      "category": "",
+      "element": "CTA statement (H2)",
+      "property": "line-height (baseline pitch)",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "54px",
+      "uiText": "54px",
+      "figmaSelectors": [
+        "[id=\"Statement\"]"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity h2"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C34",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > .gm-hero-bg-zoom"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C35",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "source aspect ratio",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "1.69",
+      "uiText": "1.78",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > .gm-hero-bg-zoom"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 0.09,
+      "severity": "Minor",
+      "fix": "Set source aspect ratio to 1.69 (now 1.78)"
+    },
+    {
+      "id": "C36",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "rendered height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "940px",
+      "uiText": "861px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > .gm-hero-bg-zoom"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -79,
+      "severity": "Major",
+      "fix": "Change rendered height from 861px to 940px"
+    },
+    {
+      "id": "C37",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "horizontal crop offset",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "-71.98px",
+      "uiText": "-44.93px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > .gm-hero-bg-zoom"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 27.05,
+      "severity": "Minor",
+      "fix": "Change horizontal crop offset from -44.93px to -71.98px"
+    },
+    {
+      "id": "C38",
+      "audit": "C",
+      "category": "",
+      "element": "Hero background image",
+      "property": "vertical crop offset",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"g-energy-hero\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section:has(> header) > .gm-hero-bg-zoom"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C39",
+      "audit": "C",
+      "category": "",
+      "element": "Product image (40 Series)",
+      "property": "frame width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "720px",
+      "uiText": "828px",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 108,
+      "severity": "Major",
+      "fix": "Change frame width from 828px to 720px"
+    },
+    {
+      "id": "C40",
+      "audit": "C",
+      "category": "",
+      "element": "Product image (40 Series)",
+      "property": "frame height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "760px",
+      "uiText": "874px",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 114,
+      "severity": "Major",
+      "fix": "Change frame height from 874px to 760px"
+    },
+    {
+      "id": "C41",
+      "audit": "C",
+      "category": "",
+      "element": "Product image (40 Series)",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > img"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C42",
+      "audit": "C",
+      "category": "",
+      "element": "Product image (40 Series)",
+      "property": "source aspect ratio",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "1",
+      "uiText": "1",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C43",
+      "audit": "C",
+      "category": "",
+      "element": "Product image (350 Series)",
+      "property": "frame width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "720px",
+      "uiText": "720px",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C44",
+      "audit": "C",
+      "category": "",
+      "element": "Product image (350 Series)",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"split-grid\"] > g > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#platform .gm-product-card-media > img"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C45",
+      "audit": "C",
+      "category": "",
+      "element": "CTA image",
+      "property": "frame width",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "560px",
+      "uiText": "556px",
+      "figmaSelectors": [
+        "[id=\"Industrial Turbine Image\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2 img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -4,
+      "severity": "Minor",
+      "fix": "Change frame width from 556px to 560px"
+    },
+    {
+      "id": "C46",
+      "audit": "C",
+      "category": "",
+      "element": "CTA image",
+      "property": "frame height",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "px",
+      "figmaText": "444px",
+      "uiText": "458px",
+      "figmaSelectors": [
+        "[id=\"Industrial Turbine Image\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2 img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": 14,
+      "severity": "Major",
+      "fix": "Change frame height from 458px to 444px"
+    },
+    {
+      "id": "C47",
+      "audit": "C",
+      "category": "",
+      "element": "CTA image",
+      "property": "scaling mode",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "cover",
+      "uiText": "cover",
+      "figmaSelectors": [
+        "[id=\"Industrial Turbine Image\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2 img"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    },
+    {
+      "id": "C48",
+      "audit": "C",
+      "category": "",
+      "element": "CTA image",
+      "property": "source aspect ratio",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "num",
+      "figmaText": "1.25",
+      "uiText": "1.25",
+      "figmaSelectors": [
+        "[id=\"Industrial Turbine Image\"] > rect:nth-of-type(1)"
+      ],
+      "uiSelectors": [
+        "section#partner-opportunity div.border-2 img"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C49",
+      "audit": "C",
+      "category": "",
+      "element": "Logo",
+      "property": "size",
+      "state": "Default",
+      "viewport": "1440",
+      "kind": "text",
+      "figmaText": "236×80",
+      "uiText": "236×80",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 1\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "C-1280",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1280px",
+      "state": "Default",
+      "viewport": "1280",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1280px. UI at 1280: desktop nav shown, hamburger hidden, card grid 4 column(s), market 2 column(s), products 2 column(s), H1 80px/96px, 3 lines, hero 889px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-1279",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1279px",
+      "state": "Default",
+      "viewport": "1279",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1279px. UI at 1279: desktop nav hidden, hamburger shown, card grid 4 column(s), market 2 column(s), products 2 column(s), H1 80px/96px, 3 lines, hero 854px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-1024",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1024px",
+      "state": "Default",
+      "viewport": "1024",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1024px. UI at 1024: desktop nav hidden, hamburger shown, card grid 4 column(s), market 2 column(s), products 2 column(s), H1 80px/96px, 3 lines, hero 901px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-1023",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "1023px",
+      "state": "Default",
+      "viewport": "1023",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 1023px. UI at 1023: desktop nav hidden, hamburger shown, card grid 2 column(s), market 1 column(s), products 1 column(s), H1 48px/48px, 3 lines, hero 580px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-768",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "768px",
+      "state": "Default",
+      "viewport": "768",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 768px. UI at 768: desktop nav hidden, hamburger shown, card grid 2 column(s), market 1 column(s), products 1 column(s), H1 48px/48px, 3 lines, hero 580px tall, horizontal scroll no"
+    },
+    {
+      "id": "C-375",
+      "audit": "C",
+      "category": "",
+      "element": "All responsive checks",
+      "property": "375px",
+      "state": "Default",
+      "viewport": "375",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "—",
+      "figmaSelectors": [],
+      "uiSelectors": [],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "No Figma frame at 375px. UI at 375: desktop nav hidden, hamburger shown, card grid 1 column(s), market 1 column(s), products 1 column(s), H1 36px/36px, 3 lines, hero 580px tall, horizontal scroll no"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI Fidelity QA Framework</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@600;700;800&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with wider bands for the flow, audits, structure and results; redline-style measurement accents */
+:root {
+  --paper: #F5F6F8;
+  --surface: #FFFFFF;
+  --ink: #14171D;
+  --muted: #586070;
+  --rule: #D9DDE4;
+  --accent: #C4225C;
+  --accent-soft: #FBE8EF;
+  --bar: #3A4150;
+  --match: #1C7547; --match-bg: #E4F2EA;
+  --diff: #B0261D; --diff-bg: #FBE9E7;
+  --unsure: #8A5700; --unsure-bg: #FFF2D9;
+  --code-bg: #ECEEF2;
+  --font-display: "Schibsted Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111318; --surface: #1A1D24; --ink: #E8EAEE; --muted: #A0A7B4; --rule: #2E333D;
+    --accent: #F0679A; --accent-soft: #3A1726; --bar: #C3C9D4;
+    --match: #63CC95; --match-bg: #15301F; --diff: #F2877E; --diff-bg: #3A1B19;
+    --unsure: #E8B04B; --unsure-bg: #33270F; --code-bg: #232730;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111318; --surface: #1A1D24; --ink: #E8EAEE; --muted: #A0A7B4; --rule: #2E333D;
+  --accent: #F0679A; --accent-soft: #3A1726; --bar: #C3C9D4;
+  --match: #63CC95; --match-bg: #15301F; --diff: #F2877E; --diff-bg: #3A1B19;
+  --unsure: #E8B04B; --unsure-bg: #33270F; --code-bg: #232730;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 72px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.6 var(--font-body);
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+code, .mono { font-family: var(--font-mono); font-size: 0.86em; }
+code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+
+.wrap { max-width: 760px; margin-inline: auto; }
+.wide { max-width: 1080px; margin-inline: auto; }
+
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.01em; }
+h3 { font-size: 1.2rem; font-weight: 700; }
+p { margin: 0; }
+.muted { color: var(--muted); }
+.small { font-size: 0.86rem; }
+.label {
+  font-family: var(--font-mono); font-size: 0.74rem; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
+}
+
+/* ---------- hero ---------- */
+.hero { padding-block: 56px 8px; display: grid; gap: 16px; }
+.hero .label { color: var(--accent); }
+.lede { font-size: 1.2rem; max-width: 60ch; }
+.byline { color: var(--muted); font-size: 0.9rem; }
+.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.92rem; padding-top: 8px; border-top: 1px solid var(--rule); }
+
+/* ---------- sections ---------- */
+section { padding-top: 64px; display: grid; gap: 18px; }
+section > .wrap, section > .wide { display: grid; gap: 18px; width: 100%; }
+ol.steps, ul.plain { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; }
+ol.steps { counter-reset: s; }
+ol.steps > li { counter-increment: s; display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 12px; align-items: start; }
+ol.steps > li::before {
+  content: counter(s); font-family: var(--font-display); font-weight: 700; font-size: 1rem;
+  width: 2rem; height: 2rem; display: grid; place-items: center;
+  border: 1.5px solid var(--accent); color: var(--accent); border-radius: 50%;
+}
+ul.plain > li { padding-left: 18px; position: relative; }
+ul.plain > li::before { content: ""; position: absolute; left: 0; top: 0.7em; width: 8px; height: 1.5px; background: var(--accent); }
+
+/* before / after */
+.versus { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.versus > div { padding: 18px 20px; border-radius: 8px; display: grid; gap: 10px; align-content: start; }
+.versus .before { background: var(--code-bg); }
+.versus .after { background: var(--surface); border: 1px solid var(--rule); }
+
+/* flow */
+.flow {
+  display: grid; align-items: center; gap: 10px;
+  grid-template-columns: minmax(0, 1.2fr) 28px minmax(0, 1fr) 28px minmax(0, 1fr) 28px minmax(0, 1.2fr);
+}
+.flow-in { display: grid; gap: 10px; }
+.node {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+  padding: 12px 14px; display: grid; gap: 2px; font-size: 0.92rem; min-width: 0;
+}
+.node strong { font-family: var(--font-display); font-size: 1.02rem; }
+.node span { color: var(--muted); }
+.node.core { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.arrow { height: 2px; background: var(--muted); position: relative; }
+.arrow::after {
+  content: ""; position: absolute; right: -1px; top: -4px;
+  border-left: 7px solid var(--muted); border-top: 5px solid transparent; border-bottom: 5px solid transparent;
+}
+.analogy {
+  border-left: 3px solid var(--accent); background: var(--accent-soft);
+  padding: 14px 18px; border-radius: 0 8px 8px 0;
+}
+
+/* audits */
+.audits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.audit { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.audit-head { display: flex; align-items: center; gap: 12px; }
+.letter {
+  font-family: var(--font-display); font-weight: 800; font-size: 1.1rem;
+  width: 2.1rem; height: 2.1rem; display: grid; place-items: center; flex: none;
+  border-radius: 6px; background: var(--ink); color: var(--paper);
+}
+.needs { font-family: var(--font-mono); font-size: 0.74rem; color: var(--muted); }
+.found { font-family: var(--font-mono); font-size: 0.8rem; background: var(--code-bg); border-radius: 6px; padding: 8px 10px; overflow-wrap: anywhere; }
+.found b { color: var(--diff); font-weight: 500; }
+
+/* project structure */
+.tree { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.folder { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.folder.out { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.folder .kind { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.08em; color: var(--accent); }
+.folder code { justify-self: start; font-size: 0.92rem; }
+.folder ul { margin: 0; padding-left: 1rem; font-size: 0.86rem; color: var(--muted); display: grid; gap: 2px; }
+
+/* status chips */
+.statuses { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.status { border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+.status.ok { background: var(--match-bg); }
+.status.bad { background: var(--diff-bg); }
+.status.unk { background: var(--unsure-bg); }
+.chip { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; }
+.ok .chip { color: var(--match); }
+.bad .chip { color: var(--diff); }
+.unk .chip { color: var(--unsure); }
+
+/* example finding */
+.ticket { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.ticket-top { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 12px 18px; border-bottom: 1px solid var(--rule); font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); }
+.sev { color: var(--diff); background: var(--diff-bg); border-radius: 4px; padding: 1px 8px; font-weight: 500; }
+.ticket-body { padding: 16px 18px; display: grid; gap: 14px; }
+.ticket-vals { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.val { display: grid; gap: 2px; }
+.val .num { font-family: var(--font-mono); font-size: 1.6rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.val.figma .num { color: var(--match); }
+.val.ui .num { color: var(--diff); }
+.fix { border-top: 1px dashed var(--rule); padding-top: 12px; }
+
+/* results */
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+thead th { font-family: var(--font-mono); font-size: 0.74rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+tbody th { font-weight: 700; white-space: nowrap; }
+.score { display: grid; gap: 4px; min-width: 170px; }
+.score-line { display: flex; justify-content: space-between; gap: 8px; font-variant-numeric: tabular-nums; }
+.score-line b { font-family: var(--font-mono); font-weight: 500; }
+.track { height: 6px; background: var(--code-bg); border-radius: 3px; overflow: hidden; }
+.track i { display: block; height: 100%; width: var(--v); background: var(--bar); border-radius: 3px; }
+.total th, .total td { border-top: 2px solid var(--ink); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.fact { border-top: 2px solid var(--ink); padding-top: 10px; display: grid; gap: 4px; align-content: start; }
+.fact .big { font-family: var(--font-display); font-size: 1.9rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* code */
+pre {
+  margin: 0; background: var(--code-bg); border-radius: 8px; padding: 14px 16px;
+  overflow-x: auto; font-family: var(--font-mono); font-size: 0.84rem; line-height: 1.6;
+}
+pre .c { color: var(--muted); }
+
+/* glossary */
+.gloss { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 28px; margin: 0; }
+.gloss div { display: grid; gap: 2px; }
+.gloss dt { font-weight: 700; }
+.gloss dd { margin: 0; color: var(--muted); }
+
+footer { padding-top: 64px; }
+footer .wrap { border-top: 1px solid var(--rule); padding-top: 16px; }
+
+@media (max-width: 960px) {
+  .tree { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .audits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 820px) {
+  .flow { grid-template-columns: minmax(0, 1fr); }
+  .arrow { width: 2px; height: 22px; justify-self: center; }
+  .arrow::after { right: -4px; top: auto; bottom: -1px; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 7px solid var(--muted); border-bottom: 0; }
+}
+@media (max-width: 620px) {
+  body { font-size: 16px; }
+  .versus, .statuses, .gloss, .audits, .tree, .facts { grid-template-columns: minmax(0, 1fr); }
+  .hero { padding-top: 36px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+
+<header class="hero wrap">
+  <p class="label">For the QA team</p>
+  <h1>UI Fidelity QA Framework</h1>
+  <p class="lede">An automated way to check that the live website matches the Figma design. It measures both, compares them value by value, and tells us exactly what to fix.</p>
+  <p class="byline">Prepared by Swathi Ghanate · Pages covered: Home and Partner Opportunity · Results from the run on 4 Nov 2026</p>
+  <nav class="toc" aria-label="Contents">
+    <a href="#why">Why</a><a href="#how">How it works</a><a href="#audits">Five audits</a><a href="#structure">Project layout</a>
+    <a href="#reading">Reading a result</a><a href="#report">The report</a><a href="#results">Results</a>
+    <a href="#workflow">QA workflow</a><a href="#run">Run it</a><a href="#add">Add a page</a><a href="#limits">Limits</a><a href="#glossary">Glossary</a>
+  </nav>
+</header>
+
+<section id="why">
+  <div class="wrap">
+    <h2>Why we built it</h2>
+    <div class="versus">
+      <div class="before">
+        <p class="label">Manual design QA</p>
+        <ul class="plain">
+          <li>Figma on one screen, website on the other</li>
+          <li>Zoom, inspect, compare by eye</li>
+          <li>Small things slip through: a 6px gap, <code>#1B6AAA</code> instead of <code>#155791</code></li>
+          <li>Two testers can reach two different answers</li>
+          <li>Everything is repeated after each fix</li>
+        </ul>
+      </div>
+      <div class="after">
+        <p class="label">With the framework</p>
+        <ul class="plain">
+          <li>Exact values are read from the design and the page</li>
+          <li>Hundreds of checks per page in one run</li>
+          <li>The same rules every time</li>
+          <li>Each difference comes with the expected value, the actual value and the fix</li>
+          <li>Rerun after a fix to confirm it</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap"><h2>How it works</h2></div>
+  <div class="wide">
+    <div class="flow" role="img" aria-label="Figma design and live website are measured, compared with fixed rules, and turned into a report">
+      <div class="flow-in">
+        <div class="node"><strong>Figma design</strong><span>frame exported as SVG</span></div>
+        <div class="node"><strong>Live website</strong><span>opened at the same width</span></div>
+      </div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node core"><strong>Measure</strong><span>exact values read from both sides</span></div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node"><strong>Compare</strong><span>fixed rules, same every run</span></div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node"><strong>Report</strong><span>one page per screen: scores and fixes</span></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <ol class="steps">
+      <li><div><h3>Read the design</h3><p>The Figma frame is exported as SVG. That file keeps the layer names, colours, fonts, sizes and positions, so each element can be measured exactly.</p></div></li>
+      <li><div><h3>Read the website</h3><p>Playwright opens the live page in a real browser at the same width, waits for fonts and images, and reads the values the browser actually uses. These are the same values you see in DevTools under <em>Computed</em>.</p></div></li>
+      <li><div><h3>Compare and report</h3><p>Each pair of values is checked with fixed rules. The report lists what matches, what differs, what must change, and a score.</p></div></li>
+    </ol>
+    <p class="analogy">Think of it as a tester with Figma Inspect on one screen and DevTools on the other, checking every value. It checks hundreds of them per page and never applies the rules differently.</p>
+  </div>
+</section>
+
+<section id="audits">
+  <div class="wrap">
+    <h2>The five audits</h2>
+    <p>Every page gets five audits. Each one measures Figma, measures the website, then compares them. Audits A to D follow our 12 design-audit prompts (A1 to D3); audit E checks every text block on the page.</p>
+  </div>
+  <div class="wide audits">
+    <article class="audit">
+      <div class="audit-head"><span class="letter">A</span><h3>Style guide</h3></div>
+      <p>Colours, fonts (family, size, weight, line height, letter spacing), borders, corner radius, shadows and gradients.</p>
+      <p class="found">Footer brand bar colour: Figma #155791, website <b>#1B6AAA</b></p>
+    </article>
+    <article class="audit">
+      <div class="audit-head"><span class="letter">B</span><h3>Layout</h3></div>
+      <p>Page and container widths, grid columns, element sizes and positions, spacing between sections, padding inside cards.</p>
+      <p class="found">Footer height: Figma 551px, website <b>668px</b></p>
+    </article>
+    <article class="audit">
+      <div class="audit-head"><span class="letter">C</span><h3>Responsive</h3></div>
+      <p>Loads the page at 7 widths (375, 768, 1023, 1024, 1279, 1280, 1440), saves a screenshot at each, and records what changes.</p>
+      <p class="found">Partner card grid at 1440: Figma 3 columns, website <b>4 columns</b></p>
+    </article>
+    <article class="audit">
+      <div class="audit-head"><span class="letter">D</span><h3>Component states</h3></div>
+      <p>Buttons and links in default, hover, focus, focus-visible and active states, the same way DevTools forces them.</p>
+      <p class="found">Nav link label: Figma "About Us", website <b>"About"</b></p>
+    </article>
+    <article class="audit">
+      <div class="audit-head"><span class="letter">E</span><h3>Text</h3></div>
+      <p>Finds every Figma text on the live page by its words, then compares wording, font, size, weight, colour and number of lines.</p>
+      <p class="found">Footer link: Figma "Partner Opportunity", website <b>"Partner Opportunities"</b></p>
+    </article>
+    <article class="audit">
+      <div class="audit-head"><span class="letter">?</span><h3>What each audit needs</h3></div>
+      <p>A to D need the page's element map and check list. E needs only the page path and its Figma SVG, so it runs on any new page straight away.</p>
+      <p class="needs">All examples above are real findings from the 4 Nov run.</p>
+    </article>
+  </div>
+  <div class="wrap">
+    <p>Why 1023 and 1024, 1279 and 1280? Those pairs sit on either side of the two widths where the site's layout switches. It is boundary value testing applied to breakpoints.</p>
+  </div>
+</section>
+
+<section id="structure">
+  <div class="wrap">
+    <h2>Project layout</h2>
+    <p>One project, five folders. Each has one job, in the order a run uses them.</p>
+  </div>
+  <div class="wide tree">
+    <div class="folder"><span class="kind">1 · INPUT</span><code>design/</code><p>Figma exports, one per page.</p><ul><li>home-1440.svg</li><li>partner-opportunity-1440.svg</li></ul></div>
+    <div class="folder"><span class="kind">2 · SETUP</span><code>pages/</code><p>What to check on each page.</p><ul><li>index.js: the page list</li><li>&lt;page&gt;.js, &lt;page&gt;.checks.js</li></ul></div>
+    <div class="folder"><span class="kind">3 · AUDITS</span><code>tests/</code><p>One file per audit.</p><ul><li>a-style-guide … e-text</li></ul></div>
+    <div class="folder"><span class="kind">4 · ENGINE</span><code>lib/</code><p>Measuring, rules and reports. No page-specific code.</p></div>
+    <div class="folder out"><span class="kind">5 · OUTPUT</span><code>reports/</code><p>Written by every run.</p><ul><li>index.html: start here</li><li>&lt;page&gt;/report.html</li><li>screenshots/, details/</li></ul></div>
+  </div>
+</section>
+
+<section id="reading">
+  <div class="wrap">
+    <h2>How to read a result</h2>
+    <div class="statuses">
+      <div class="status ok"><span class="chip">✓ Match</span><p>Both values exist and are equal under the rules below.</p></div>
+      <div class="status bad"><span class="chip">✗ Different</span><p>Both values exist and they differ. Comes with the fix.</p></div>
+      <div class="status unk"><span class="chip">? Could not verify</span><p>One side has no value. The tool never guesses and says why.</p></div>
+    </div>
+    <ul class="plain">
+      <li><strong>Under 1px</strong> counts as a match.</li>
+      <li><strong>Same colour, different notation</strong> counts as a match: <code>#FFF</code> = <code>#FFFFFF</code> = <code>rgb(255, 255, 255)</code>.</li>
+      <li><strong>Major</strong>: colour, font family or weight, structure (columns, visibility, wrapping, labels), wording, and gaps of 8px or more. <strong>Minor</strong>: everything else, including punctuation-only text differences.</li>
+      <li><strong>Confidence High</strong> when both values are read directly; <strong>Med</strong> when one is derived or a text was matched by similar wording, and the row says why.</li>
+      <li><strong>Score</strong> = matched ÷ (matched + different). "Could not verify" items are left out of the score.</li>
+    </ul>
+    <p>A real finding from the Partner Opportunity page (4 Nov):</p>
+    <div class="ticket">
+      <div class="ticket-top"><span class="sev">Major</span><span>B Layout</span><span>Confidence High</span><span>1440px</span></div>
+      <div class="ticket-body">
+        <h3>Partner card grid: columns</h3>
+        <div class="ticket-vals">
+          <div class="val figma"><span class="label">Figma</span><span class="num">3</span></div>
+          <div class="val ui"><span class="label">Website</span><span class="num">4</span></div>
+        </div>
+        <p class="fix"><span class="label">Required change</span><br>Use a 3-column grid at 1440 (cards 410.67px wide, 24px gaps).</p>
+      </div>
+    </div>
+    <p class="muted">A red Playwright run is expected while the website differs from Figma. Each difference is logged as a soft assertion, so the run keeps going and lists every difference instead of stopping at the first.</p>
+  </div>
+</section>
+
+<section id="report">
+  <div class="wrap">
+    <h2>The report</h2>
+    <p>Open <code>reports/index.html</code>. It lists every page with its five scores. Each page has one <code>report.html</code>:</p>
+    <ul class="plain">
+      <li><strong>Scores</strong>: one card per audit and a total, with the number of differences and how many are Major.</li>
+      <li><strong>Fix first</strong>: the 10 most important differences across all five audits.</li>
+      <li><strong>Every check</strong>: a table you can filter by result, audit, severity or search. Each difference has a <strong>Copy for bug</strong> button with the element, expected and actual values, and the fix.</li>
+      <li><strong>Screenshots</strong> from audit C at every width.</li>
+      <li><strong>Details</strong>: the full report each audit prompt asks for, as Markdown, in <code>reports/&lt;page&gt;/details/</code>.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="results">
+  <div class="wrap">
+    <h2>Results</h2>
+    <p>Run on 4 Nov 2026 against the build at <code>http://192.168.5.250:8081</code>, at 1440px (audit C at all 7 widths). The score shows how close the build is to the design. It is not a test pass rate.</p>
+  </div>
+  <div class="wrap table-scroll">
+    <table>
+      <thead><tr><th scope="col">Audit</th><th scope="col">Home</th><th scope="col">Partner Opportunity</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">A Style guide</th>
+          <td><div class="score"><div class="score-line"><b>81.8%</b><span class="muted small">126 of 154</span></div><div class="track"><i style="--v:81.8%"></i></div></div></td>
+          <td><div class="score"><div class="score-line"><b>77.3%</b><span class="muted small">102 of 132</span></div><div class="track"><i style="--v:77.3%"></i></div></div></td></tr>
+        <tr><th scope="row">B Layout</th>
+          <td><div class="score"><div class="score-line"><b>38.0%</b><span class="muted small">41 of 108</span></div><div class="track"><i style="--v:38%"></i></div></div></td>
+          <td><div class="score"><div class="score-line"><b>45.9%</b><span class="muted small">50 of 109</span></div><div class="track"><i style="--v:45.9%"></i></div></div></td></tr>
+        <tr><th scope="row">C Responsive</th>
+          <td><div class="score"><div class="score-line"><b>75.5%</b><span class="muted small">37 of 49</span></div><div class="track"><i style="--v:75.5%"></i></div></div></td>
+          <td><div class="score"><div class="score-line"><b>70.8%</b><span class="muted small">34 of 48</span></div><div class="track"><i style="--v:70.8%"></i></div></div></td></tr>
+        <tr><th scope="row">D Component states</th>
+          <td><div class="score"><div class="score-line"><b>74.4%</b><span class="muted small">32 of 43</span></div><div class="track"><i style="--v:74.4%"></i></div></div></td>
+          <td><div class="score"><div class="score-line"><b>76.6%</b><span class="muted small">36 of 47</span></div><div class="track"><i style="--v:76.6%"></i></div></div></td></tr>
+        <tr><th scope="row">E Text</th>
+          <td><div class="score"><div class="score-line"><b>93.2%</b><span class="muted small">396 of 425</span></div><div class="track"><i style="--v:93.2%"></i></div></div></td>
+          <td><div class="score"><div class="score-line"><b>90.2%</b><span class="muted small">405 of 449</span></div><div class="track"><i style="--v:90.2%"></i></div></div></td></tr>
+        <tr class="total"><th scope="row">All audits</th>
+          <td><div class="score"><div class="score-line"><b>81.1%</b><span class="muted small">632 of 779</span></div><div class="track"><i style="--v:81.1%"></i></div></div></td>
+          <td><div class="score"><div class="score-line"><b>79.9%</b><span class="muted small">627 of 785</span></div><div class="track"><i style="--v:79.9%"></i></div></div></td></tr>
+        <tr><th scope="row">Differences</th><td>147 (70 Major)</td><td>158 (69 Major)</td></tr>
+        <tr><th scope="row">Could not verify</th><td>10</td><td>11</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><span class="big">146 / 146</span><span class="muted small">Figma texts found on the live pages (71 Home, 75 Partner Opportunity)</span></div>
+      <div class="fact"><span class="big">6</span><span class="muted small">different wordings: 4 real copy changes and 2 punctuation-only</span></div>
+      <div class="fact"><span class="big">Same</span><span class="muted small">A–D scores as the 29 Oct production run: nothing those checks cover has changed since</span></div>
+    </div>
+    <p><strong>Layout is the weakest area on both pages.</strong> Fewer than half of the layout checks match, mostly sizes, spacing and the footer. Colours and fonts are largely right; the remaining style issues are specific colours and font weights.</p>
+    <p><strong>Text is mostly right, with real differences in size and wording.</strong> Font size is the most common text difference (20 on Home, 29 on Partner Opportunity): footer links are 12px instead of 14px, the numbered advantages 16px instead of 18px, and "What a Strategic Partner May Gain" 28px instead of 36px. Nine partner-card texts wrap to an extra line because the grid has 4 columns instead of 3.</p>
+    <h3>Wording that differs from Figma</h3>
+    <ul class="plain">
+      <li>Nav link: Figma "About Us", website <strong>"About"</strong> <span class="muted">(both pages)</span></li>
+      <li>Footer link: Figma "Partner Opportunity", website <strong>"Partner Opportunities"</strong> <span class="muted">(both pages)</span></li>
+      <li>"…fail to align with aggressive project schedules.": the website adds <strong>"deployment"</strong> <span class="muted">(Home)</span></li>
+      <li>"Regional manufacturing supported by common standards.": the website adds <strong>"is"</strong> <span class="muted">(Partner Opportunity)</span></li>
+      <li>Punctuation only, Minor: the website adds a full stop after "large CHP" <span class="muted">(Home)</span>; Figma has the typo "Systemcontrols" where the website has "System, controls" <span class="muted">(Partner Opportunity)</span>. Confirm which version is right before logging these.</li>
+    </ul>
+    <h3>Top fixes</h3>
+    <ul class="plain">
+      <li>Partner card grid shows 4 columns at 1440; Figma has 3. This also makes nine card texts wrap to an extra line <span class="muted">(Partner Opportunity)</span></li>
+      <li>Footer brand bar colour is <code>#1B6AAA</code>; Figma uses <code>#155791</code> <span class="muted">(both pages)</span></li>
+      <li>Footer is 668px tall; Figma is 551px <span class="muted">(both pages)</span></li>
+      <li>Nav "About" and footer "Partner Opportunities" should read "About Us" and "Partner Opportunity" <span class="muted">(both pages)</span></li>
+      <li>CTA section gradient runs at 135°; Figma uses 90° <span class="muted">(Home)</span></li>
+      <li>Product spec text is <code>#CBE0F3</code>; Figma uses <code>#FFFFFF</code>. The Why Partner background is <code>#F0F6FC</code>; Figma uses <code>#FAFBFD</code> <span class="muted">(Home)</span></li>
+      <li>Hero button is 48px tall and sits 75px lower than in Figma (56px tall) <span class="muted">(Home)</span></li>
+      <li>CTA statement is weight 500; Figma uses 400 <span class="muted">(Partner Opportunity)</span></li>
+    </ul>
+    <p class="small muted">Every difference, with its Figma and website values and the required change, is in <code>reports/home/report.html</code> and <code>reports/partner-opportunity/report.html</code>.</p>
+  </div>
+</section>
+
+<section id="workflow">
+  <div class="wrap">
+    <h2>How QA uses it</h2>
+    <ol class="steps">
+      <li><div><h3>Run the audits</h3><p>One command for every page, or one page or audit at a time.</p></div></li>
+      <li><div><h3>Open the report</h3><p><code>reports/index.html</code>, then the page. Start with <em>Fix first</em>.</p></div></li>
+      <li><div><h3>Triage</h3><p>Filter to Major. Every row already has the Figma value, the website value and the fix.</p></div></li>
+      <li><div><h3>Check the rest by hand</h3><p>Switch the filter to "Could not verify". Each row says why and names the selector to inspect in DevTools.</p></div></li>
+      <li><div><h3>Log bugs</h3><p>Use <strong>Copy for bug</strong> and paste it into the ticket.</p></div></li>
+      <li><div><h3>Rerun after the fix</h3><p>The item moves to Match and the score goes up.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="run">
+  <div class="wrap">
+    <h2>Run it yourself</h2>
+    <p>From the project folder, after <code>npm ci</code> and <code>npx playwright install chromium</code>:</p>
+<pre><code>npx playwright test               <span class="c"># all five audits, every page (same as: npm test)</span>
+npx playwright test -g home       <span class="c"># one page: home, partner-opportunity</span>
+npx playwright test e-text        <span class="c"># one audit: a-style, b-layout, c-responsive, d-component, e-text</span></code></pre>
+    <p>Then open <code>reports/index.html</code>.</p>
+    <p class="label">Testing another build, such as the internal server</p>
+<pre><code>$env:BASE_URL = 'http://192.168.5.250:8081'; npx playwright test   <span class="c"># PowerShell</span>
+Remove-Item Env:BASE_URL                                            <span class="c"># back to production</span></code></pre>
+    <p>GitHub Actions runs the audits on every push and pull request to <code>main</code> and keeps <code>reports/</code> as the <strong>ui-fidelity-reports</strong> download for 30 days.</p>
+    <p class="small muted">Links from this file: <a href="../reports/index.html">latest reports</a> (after a run) · <a href="../README.md">README</a></p>
+  </div>
+</section>
+
+<section id="add">
+  <div class="wrap">
+    <h2>Add a page</h2>
+    <ol class="steps">
+      <li><div><h3>Export the design</h3><p>Export the Figma frame as SVG with <strong>Outline text off</strong>, and save it as <code>design/&lt;name&gt;-1440.svg</code>.</p></div></li>
+      <li><div><h3>Describe the page</h3><p>Create <code>pages/&lt;name&gt;.js</code> with four fields:</p>
+<pre><code>module.exports = { name: 'about', title: 'About', path: '/about', svg: 'about-1440.svg' };</code></pre></div></li>
+      <li><div><h3>Add it to the list</h3><p>Add <code>require('./about')</code> to <code>pages/index.js</code>. Audit E runs on the next run.</p></div></li>
+      <li><div><h3>For audits A–D</h3><p>Copy <code>pages/home.js</code> and <code>home.checks.js</code>, then change the selectors and checks. Until then, A–D are skipped with the reason shown.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <h2>What it does not do yet</h2>
+    <ul class="plain">
+      <li>It runs in Chrome only, because forcing hover, focus and active uses Chrome DevTools.</li>
+      <li>Figma has only the 1440 desktop frame, so other widths go to "Could not verify" until tablet and mobile frames are added.</li>
+      <li>Icons and text drawn as images have no CSS colour or text, so they are not compared.</li>
+      <li>A text reworded by more than about 30% cannot be matched with confidence and goes to "Could not verify".</li>
+      <li>Hover and focus effects that come from a parent element (<code>:focus-within</code>, group hover) are not forced.</li>
+      <li>If developers change the page markup, the affected checks move to "Could not verify" and name the selector that stopped matching. They do not fail silently.</li>
+      <li>It compares measurable values. Image quality and animation still need a human eye.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="glossary">
+  <div class="wrap">
+    <h2>Glossary</h2>
+    <dl class="gloss">
+      <div><dt>Playwright</dt><dd>A browser automation tool. It opens pages and reads values the way a tester would.</dd></div>
+      <div><dt>SVG export</dt><dd>The Figma frame saved as a file that keeps layer names, colours and text.</dd></div>
+      <div><dt>Computed CSS</dt><dd>The final style values the browser applies. DevTools › Elements › Computed.</dd></div>
+      <div><dt>Viewport</dt><dd>The browser window width the page is tested at, for example 1440px.</dd></div>
+      <div><dt>Selector</dt><dd>The address used to find an element on the page, for example <code>header nav a</code>.</dd></div>
+      <div><dt>Soft assertion</dt><dd>A check that records a failure and keeps going, so one run lists every difference.</dd></div>
+      <div><dt>BASE_URL</dt><dd>The site the audits test. Unset means production.</dd></div>
+      <div><dt>Element map</dt><dd>The list in a page file that pairs each Figma layer with its element on the live page.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="small muted">Code: <code>design/</code>, <code>pages/</code>, <code>tests/</code>, <code>lib/</code>; output in <code>reports/</code>. Built with Playwright and Node.js. The two earlier approaches are backed up outside the project.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,602 @@
+[
+  {
+    "figma": "Why Now",
+    "figmaLayer": "Why Now",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Why Now",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(1)"
+  },
+  {
+    "figma": "The Platform",
+    "figmaLayer": "The Platform",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "The Platform",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(2)"
+  },
+  {
+    "figma": "Market Applications",
+    "figmaLayer": "Market Applications",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Market Applications",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(3)"
+  },
+  {
+    "figma": "Partner Opportunity",
+    "figmaLayer": "Partner Opportunity_2",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Partner Opportunity",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(4)"
+  },
+  {
+    "figma": "Partner Process",
+    "figmaLayer": "Partner Process",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Partner Process",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(5)"
+  },
+  {
+    "figma": "About Us",
+    "figmaLayer": "About Us",
+    "section": "Hero",
+    "matchedBy": "similar wording (73% alike)",
+    "ui": "About",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(6)"
+  },
+  {
+    "figma": "FAQs & News",
+    "figmaLayer": "FAQs & News",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "FAQs & News",
+    "uiSelector": "#oem-opportunity > header > div > nav > a:nth-of-type(7)"
+  },
+  {
+    "figma": "Partner Sign in",
+    "figmaLayer": "Action Button",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Partner Sign in",
+    "uiSelector": "#oem-opportunity > header > div > div > a"
+  },
+  {
+    "figma": "Do Not Wait Years to",
+    "figmaLayer": "hero-headline-1",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Do Not Wait Years to",
+    "uiSelector": "#oem-opportunity > div:nth-of-type(2) > div > h1"
+  },
+  {
+    "figma": "Start from Zero.",
+    "figmaLayer": "hero-headline-1",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "Start from Zero.",
+    "uiSelector": "#oem-opportunity > div:nth-of-type(2) > div > h1 > span:nth-of-type(3)"
+  },
+  {
+    "figma": "The BargerTech platform is intended for markets where reliable power, deployment speed, fuel flexibility, useful heat, or local control can create strategic value. Each application will require partner engineering, certification, site design, fuel planning, and commercial validation.",
+    "figmaLayer": "hero-subtitle",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "The BargerTech platform is intended for markets where reliable power, deployment speed, fuel flexibility, useful heat, or local control can create strategic value. Each application will require partner engineering, certification, site design, fuel planning, and commercial validation.",
+    "uiSelector": "#oem-opportunity > div:nth-of-type(2) > div > p"
+  },
+  {
+    "figma": "See Partner Fit",
+    "figmaLayer": "Action Button_2",
+    "section": "Hero",
+    "matchedBy": "exact",
+    "ui": "See Partner Fit",
+    "uiSelector": "#oem-opportunity > div:nth-of-type(2) > a"
+  },
+  {
+    "figma": "STRATEGIC ADVANTAGE",
+    "figmaLayer": "Eyebrow",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "STRATEGIC ADVANTAGE",
+    "uiSelector": "div > section:nth-of-type(2) > div > div:nth-of-type(1) > div > p"
+  },
+  {
+    "figma": "What a Strategic Partner May Gain",
+    "figmaLayer": "Headline",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "What a Strategic Partner May Gain",
+    "uiSelector": "#root > div > section:nth-of-type(2) > div > div:nth-of-type(1) > h2"
+  },
+  {
+    "figma": "01",
+    "figmaLayer": "01",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "01",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(1) > div > span"
+  },
+  {
+    "figma": "Access to an established energy platform within an executed framework.",
+    "figmaLayer": "Access to an established energy platform within an executed framework.",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "Access to an established energy platform within an executed framework.",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(1) > div > p"
+  },
+  {
+    "figma": "02",
+    "figmaLayer": "02",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "02",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(2) > div > span"
+  },
+  {
+    "figma": "A structured technology deployment and manufacturing-readiness process.",
+    "figmaLayer": "A structured technology deployment and manufacturing-readiness process.",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "A structured technology deployment and manufacturing-readiness process.",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(2) > div > p"
+  },
+  {
+    "figma": "03",
+    "figmaLayer": "03",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "03",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(3) > div > span"
+  },
+  {
+    "figma": "Regional or territorial opportunities defined through negotiated agreements and measurable obligations.",
+    "figmaLayer": "Regional or territorial opportunities defined through negotiated agreements and measurable obligations.",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "Regional or territorial opportunities defined through negotiated agreements and measurable obligations.",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(3) > div > p"
+  },
+  {
+    "figma": "04",
+    "figmaLayer": "04",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "04",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(4) > div > span"
+  },
+  {
+    "figma": "Ongoing deployment collaboration, updates, quality systems, and launch support.",
+    "figmaLayer": "Ongoing deployment collaboration, updates, quality systems, and launch support.",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "Ongoing deployment collaboration, updates, quality systems, and launch support.",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(4) > div > p"
+  },
+  {
+    "figma": "05",
+    "figmaLayer": "05",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "05",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(5) > div > span"
+  },
+  {
+    "figma": "Participation in common product and global manufacturing standards.",
+    "figmaLayer": "Participation in common product and global manufacturing standards.",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "Participation in common product and global manufacturing standards.",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(5) > div > p"
+  },
+  {
+    "figma": "06",
+    "figmaLayer": "06",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "06",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > span"
+  },
+  {
+    "figma": "The ability to combine existing customers, channels, service networks, capital, and integration skills with a new platform.",
+    "figmaLayer": "The ability to combine existing customers, channels, service networks, capital, and integration skills with a new platform.",
+    "section": "Advantages",
+    "matchedBy": "exact",
+    "ui": "The ability to combine existing customers, channels, service networks, capital, and integration skills with a new platform.",
+    "uiSelector": "div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > p"
+  },
+  {
+    "figma": "IDEAL ALIGNMENT",
+    "figmaLayer": "Eyebrow_2",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "IDEAL ALIGNMENT",
+    "uiSelector": "div > section:nth-of-type(3) > div > div:nth-of-type(1) > div > p"
+  },
+  {
+    "figma": "Who BargerTech Wants to Meet",
+    "figmaLayer": "Headline_2",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Who BargerTech Wants to Meet",
+    "uiSelector": "#root > div > section:nth-of-type(3) > div > div:nth-of-type(1) > h2"
+  },
+  {
+    "figma": "OEM Parts Manufacturers and Supply Components",
+    "figmaLayer": "Heading",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "OEM Parts Manufacturers and Supply Components",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > h3"
+  },
+  {
+    "figma": "Manufacturing, quality, supply chain, certification, and service.",
+    "figmaLayer": "Description",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Manufacturing, quality, supply chain, certification, and service.",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Generator Package Supply Partners & Power Integrators",
+    "figmaLayer": "Heading_2",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Generator Package Supply Partners & Power Integrators",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h3"
+  },
+  {
+    "figma": "Systemcontrols, packaging, installation, market channels, and delivery.",
+    "figmaLayer": "Description_2",
+    "section": "Partners",
+    "matchedBy": "same letters (spacing or punctuation differ)",
+    "ui": "System, controls, packaging, installation, market channels, and delivery.",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Energy-as-a-Service Providers – Power by The Hour",
+    "figmaLayer": "Heading_3",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Energy-as-a-Service Providers - Power by The Hour",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > h3"
+  },
+  {
+    "figma": "Project origination, financing, operations, and recurring customer contracts and PPAs.",
+    "figmaLayer": "Description_3",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Project origination, financing, operations, and recurring customer contracts and PPAs.",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Natural-Gas & Resource Companies",
+    "figmaLayer": "Heading_4",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Natural-Gas & Resource Companies",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(2) > h3"
+  },
+  {
+    "figma": "Fuel access, project sites, infrastructure, customers, and value-conversion opportunities.",
+    "figmaLayer": "Description_4",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Fuel access, project sites, infrastructure, customers, and value-conversion opportunities.",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Strategic Capital Partners",
+    "figmaLayer": "Heading_5",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Strategic Capital Partners",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(2) > h3"
+  },
+  {
+    "figma": "Technology- capital, manufacturing scale-up, deployment capital, and governance.",
+    "figmaLayer": "Description_5",
+    "section": "Partners",
+    "matchedBy": "same letters (spacing or punctuation differ)",
+    "ui": "Technology-capital, manufacturing scale-up, deployment capital, and governance.",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Anchor Customers & Deployment Partners",
+    "figmaLayer": "Heading_6",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Anchor Customers & Deployment Partners",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(2) > h3"
+  },
+  {
+    "figma": "Reference demand, use cases, sites, fleet pathways, and market credibility.",
+    "figmaLayer": "Description_6",
+    "section": "Partners",
+    "matchedBy": "exact",
+    "ui": "Reference demand, use cases, sites, fleet pathways, and market credibility.",
+    "uiSelector": "section:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "PLATFORM VALUES",
+    "figmaLayer": "Eyebrow_3",
+    "section": "Platform architecture",
+    "matchedBy": "exact",
+    "ui": "PLATFORM VALUES",
+    "uiSelector": "div > section:nth-of-type(4) > div:nth-of-type(3) > div > div > p"
+  },
+  {
+    "figma": "Commercial Philosophy",
+    "figmaLayer": "Statement",
+    "section": "Platform architecture",
+    "matchedBy": "exact",
+    "ui": "Commercial Philosophy",
+    "uiSelector": "#root > div > section:nth-of-type(4) > div:nth-of-type(3) > div > h2"
+  },
+  {
+    "figma": "Long-term partnership rather than document-only licensing.",
+    "figmaLayer": "Long-term partnership rather than document-only licensing.",
+    "section": "Platform architecture",
+    "matchedBy": "exact",
+    "ui": "Long-term partnership rather than document-only licensing.",
+    "uiSelector": "div > section:nth-of-type(4) > div:nth-of-type(3) > ul > li:nth-of-type(1) > p"
+  },
+  {
+    "figma": "Regional manufacturing supported by common standards.",
+    "figmaLayer": "Regional manufacturing supported by common standards.",
+    "section": "Platform architecture",
+    "matchedBy": "similar wording (97% alike)",
+    "ui": "Regional manufacturing is supported by common standards.",
+    "uiSelector": "div > section:nth-of-type(4) > div:nth-of-type(3) > ul > li:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Shared investment in successful commercialization and deployment.",
+    "figmaLayer": "Shared investment in successful commercialization and deployment.",
+    "section": "Platform architecture",
+    "matchedBy": "exact",
+    "ui": "Shared investment in successful commercialization and deployment.",
+    "uiSelector": "div > section:nth-of-type(4) > div:nth-of-type(3) > ul > li:nth-of-type(3) > p"
+  },
+  {
+    "figma": "Performance-based rights defined in final agreements.",
+    "figmaLayer": "Performance-based rights defined in final agreements.",
+    "section": "Platform architecture",
+    "matchedBy": "exact",
+    "ui": "Performance-based rights defined in final agreements.",
+    "uiSelector": "div > section:nth-of-type(4) > div:nth-of-type(3) > ul > li:nth-of-type(4) > p"
+  },
+  {
+    "figma": "Continuous improvement and mutual long-term commercial success.",
+    "figmaLayer": "Continuous improvement and mutual long-term commercial success.",
+    "section": "Platform architecture",
+    "matchedBy": "exact",
+    "ui": "Continuous improvement and mutual long-term commercial success.",
+    "uiSelector": "div > section:nth-of-type(4) > div:nth-of-type(3) > ul > li:nth-of-type(5) > p"
+  },
+  {
+    "figma": "The objective is not to collect the largest number of applicants. It is to identify a select group capable of manufacturing components and parts, deploying, financing, servicing, and expanding the platform at scale.",
+    "figmaLayer": "The objective is not to collect the largest number of applicants. It is to identify a select group capable of manufacturing components and parts, deploying, financing, servicing, and expanding the platform at scale.",
+    "section": "CTA",
+    "matchedBy": "exact",
+    "ui": "The objective is not to collect the largest number of applicants. It is to identify a select group capable of manufacturing components and parts, deploying, financing, servicing, and expanding the platform at scale.",
+    "uiSelector": "#root > div > section:nth-of-type(5) > div > div:nth-of-type(3) > p"
+  },
+  {
+    "figma": "See Partner Fit & Process",
+    "figmaLayer": "Action Button_3",
+    "section": "CTA",
+    "matchedBy": "exact",
+    "ui": "See Partner Fit & Process",
+    "uiSelector": "#root > div > section:nth-of-type(5) > div > div:nth-of-type(3) > a"
+  },
+  {
+    "figma": "BargerTech",
+    "figmaLayer": "CompanyName",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "BargerTech",
+    "uiSelector": "div > footer > div > div:nth-of-type(1) > div:nth-of-type(1) > h3"
+  },
+  {
+    "figma": "Powering the next generation of onsite and distributed energy through strategic partnerships.",
+    "figmaLayer": "BrandTagline",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Powering the next generation of onsite and distributed energy through strategic partnerships.",
+    "uiSelector": "div > footer > div > div:nth-of-type(1) > div:nth-of-type(1) > p"
+  },
+  {
+    "figma": "EXPLORE",
+    "figmaLayer": "ExploreHeading",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Explore",
+    "uiSelector": "div > footer > div > div:nth-of-type(1) > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "Why Now",
+    "figmaLayer": "Why Now_2",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Why Now",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+  },
+  {
+    "figma": "The Platform",
+    "figmaLayer": "The Platform_2",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "The Platform",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+  },
+  {
+    "figma": "Market Applications",
+    "figmaLayer": "Market Applications_2",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Market Applications",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+  },
+  {
+    "figma": "Partner Opportunity",
+    "figmaLayer": "Partner Opportunity_3",
+    "section": "Footer",
+    "matchedBy": "similar wording (89% alike)",
+    "ui": "Partner Opportunities",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+  },
+  {
+    "figma": "Partner Fit & Process",
+    "figmaLayer": "Partner Fit & Process",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Partner Fit & Process",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+  },
+  {
+    "figma": "About BargerTech",
+    "figmaLayer": "About BargerTech",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "About BargerTech",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+  },
+  {
+    "figma": "Executive FAQ",
+    "figmaLayer": "Executive FAQ",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Executive FAQ",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+  },
+  {
+    "figma": "PARTNERS",
+    "figmaLayer": "PartnersHeading",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Partners",
+    "uiSelector": "div > footer > div > div:nth-of-type(1) > div:nth-of-type(3) > p"
+  },
+  {
+    "figma": "Begin Partner Qualification",
+    "figmaLayer": "Begin Partner Qualification",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Begin Partner Qualification",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(3) > ul > li:nth-of-type(1) > a"
+  },
+  {
+    "figma": "Partner Sign In",
+    "figmaLayer": "Partner Sign In",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Partner Sign In",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(3) > ul > li:nth-of-type(2) > a"
+  },
+  {
+    "figma": "CONTACT",
+    "figmaLayer": "ContactHeading",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Contact",
+    "uiSelector": "div > footer > div > div:nth-of-type(1) > div:nth-of-type(4) > p"
+  },
+  {
+    "figma": "Business Development",
+    "figmaLayer": "Business Development",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Business Development",
+    "uiSelector": "footer > div > div:nth-of-type(1) > div:nth-of-type(4) > ul > li:nth-of-type(1)"
+  },
+  {
+    "figma": "Contact Business Development",
+    "figmaLayer": "Contact Business Development",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Contact Business Development",
+    "uiSelector": "div:nth-of-type(1) > div:nth-of-type(4) > ul > li:nth-of-type(2) > a > span"
+  },
+  {
+    "figma": "LinkedIn",
+    "figmaLayer": "LinkedIn",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "LinkedIn",
+    "uiSelector": "div:nth-of-type(1) > div:nth-of-type(4) > ul > li:nth-of-type(3) > a > span"
+  },
+  {
+    "figma": "LEGAL",
+    "figmaLayer": "LegalHeading",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Legal",
+    "uiSelector": "div > footer > div > div:nth-of-type(1) > div:nth-of-type(5) > p"
+  },
+  {
+    "figma": "Privacy",
+    "figmaLayer": "Privacy",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Privacy",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(5) > ul > li:nth-of-type(1) > a"
+  },
+  {
+    "figma": "Terms of Use",
+    "figmaLayer": "Terms of Use",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Terms of Use",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(5) > ul > li:nth-of-type(2) > a"
+  },
+  {
+    "figma": "Cookie Notice",
+    "figmaLayer": "Cookie Notice",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Cookie Notice",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(5) > ul > li:nth-of-type(3) > a"
+  },
+  {
+    "figma": "Intellectual Property Notice",
+    "figmaLayer": "Intellectual Property Notice",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Intellectual Property Notice",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(5) > ul > li:nth-of-type(4) > a"
+  },
+  {
+    "figma": "Accessibility",
+    "figmaLayer": "Accessibility",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Accessibility",
+    "uiSelector": "div > div:nth-of-type(1) > div:nth-of-type(5) > ul > li:nth-of-type(5) > a"
+  },
+  {
+    "figma": "Public information on this website is preliminary and non-confidential. Nothing on this site grants a license, territory, exclusivity, manufacturing authority, intellectual property rights, or constitutes an investment or commercial offer.",
+    "figmaLayer": "DisclaimerText",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "Public information on this website is preliminary and non-confidential. Nothing on this site grants a license, territory, exclusivity, manufacturing authority, intellectual property rights, or constitutes an investment or commercial offer.",
+    "uiSelector": "div > footer > div > div:nth-of-type(2) > div > p"
+  },
+  {
+    "figma": "© 2026 BargerTech Ltd. All rights reserved.",
+    "figmaLayer": "Copyright",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "© 2026 BargerTech Ltd. All rights reserved.",
+    "uiSelector": "#root > div > footer > div > div:nth-of-type(2) > p"
+  },
+  {
+    "figma": "BargerTech Engines OEM Commercialization Platform - Powered by",
+    "figmaLayer": "PoweredBy",
+    "section": "Footer",
+    "matchedBy": "exact",
+    "ui": "BargerTech Engines OEM Commercialization Platform - Powered by",
+    "uiSelector": "div > footer > div > div:nth-of-type(3) > div > span"
+  }
+]

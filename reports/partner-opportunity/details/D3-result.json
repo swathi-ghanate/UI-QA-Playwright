@@ -1,0 +1,1054 @@
+{
+  "code": "D3",
+  "title": "Figma vs implemented UI (component states)",
+  "page": "partner-opportunity",
+  "pageTitle": "Partner Opportunity",
+  "url": "http://192.168.5.250:8081/oem-opportunity",
+  "figma": "design/partner-opportunity-1440.svg",
+  "generated": "2026-11-04T13:35:57.098Z",
+  "score": {
+    "matched": 36,
+    "differ": 11,
+    "unverified": 1,
+    "verifiable": 47,
+    "pct": 76.6
+  },
+  "results": [
+    {
+      "id": "D1",
+      "audit": "D",
+      "category": "",
+      "element": "Nav links",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "transparent",
+      "uiText": "transparent",
+      "figmaSelectors": [],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "Figma text layers have no fill behind them",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D2",
+      "audit": "D",
+      "category": "",
+      "element": "Nav links",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D3",
+      "audit": "D",
+      "category": "",
+      "element": "Nav links",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D4",
+      "audit": "D",
+      "category": "",
+      "element": "Nav links",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "500",
+      "uiText": "500",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D5",
+      "audit": "D",
+      "category": "",
+      "element": "Nav links",
+      "property": "labels",
+      "state": "Default",
+      "viewport": "",
+      "kind": "list",
+      "figmaText": "[Why Now, The Platform, Market Applications, Partner Opportunity, Partner Process, About Us, FAQs & News]",
+      "uiText": "[Why Now, The Platform, Market Applications, Partner Opportunity, Partner Process, About, FAQs & News]",
+      "figmaSelectors": [
+        "[id=\"Nav_Links\"] > text"
+      ],
+      "uiSelectors": [
+        "header nav a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set labels to [Why Now, The Platform, Market Applications, Partner Opportunity, Partner Process, About Us, FAQs & News] (now [Why Now, The Platform, Market Applications, Partner Opportunity, Partner Process, About, FAQs & News])"
+    },
+    {
+      "id": "D6",
+      "audit": "D",
+      "category": "",
+      "element": "Nav link (current page)",
+      "property": "font-weight",
+      "state": "Selected",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "700",
+      "uiText": "700",
+      "figmaSelectors": [
+        "[id=\"Partner Opportunity_2\"]"
+      ],
+      "uiSelectors": [
+        "header nav a:has-text(\"Partner Opportunity\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D7",
+      "audit": "D",
+      "category": "",
+      "element": "Nav link (current page)",
+      "property": "text color",
+      "state": "Selected",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Partner Opportunity_2\"]"
+      ],
+      "uiSelectors": [
+        "header nav a:has-text(\"Partner Opportunity\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D8",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D9",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#FFFFFF",
+      "uiText": "#FFFFFF",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D10",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "border width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "0px",
+      "uiText": "0px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D11",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D12",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "shadow",
+      "state": "Default",
+      "viewport": "",
+      "kind": "shadow",
+      "figmaText": "none",
+      "uiText": "none",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D13",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "154px",
+      "uiText": "153.7px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D14",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "48px",
+      "uiText": "42px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -6,
+      "severity": "Minor",
+      "fix": "Change height from 42px to 48px"
+    },
+    {
+      "id": "D15",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D16",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D17",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "opacity",
+      "state": "Default",
+      "viewport": "",
+      "kind": "num",
+      "figmaText": "1",
+      "uiText": "1",
+      "figmaSelectors": [
+        "[id=\"Button\"]"
+      ],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D18",
+      "audit": "D",
+      "category": "",
+      "element": "Primary button (nav)",
+      "property": "cursor",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "—",
+      "uiText": "pointer",
+      "figmaSelectors": [],
+      "uiSelectors": [
+        "header a:has-text(\"Partner Sign in\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "unverified",
+      "reason": "Figma: Figma exports carry no cursor"
+    },
+    {
+      "id": "D19",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#CBE0F3",
+      "uiText": "#CBE0F3",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D20",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D21",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D22",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "border width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1.5px",
+      "uiText": "1px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D23",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "fully rounded",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D24",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "shadow",
+      "state": "Default",
+      "viewport": "",
+      "kind": "shadow",
+      "figmaText": "none",
+      "uiText": "none",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D25",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "163px",
+      "uiText": "163.91px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D26",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "56px",
+      "uiText": "52px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -4,
+      "severity": "Minor",
+      "fix": "Change height from 52px to 56px"
+    },
+    {
+      "id": "D27",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D28",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (hero)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button_2\"]"
+      ],
+      "uiSelectors": [
+        "#oem-opportunity a:has-text(\"See Partner Fit\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D29",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "background",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#CBE0F3",
+      "uiText": "#CBE0F3",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D30",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D31",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "border color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#1B6AAA",
+      "uiText": "#1B6AAA",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D32",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "border width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "1.5px",
+      "uiText": "1px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D33",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "border-radius",
+      "state": "Default",
+      "viewport": "",
+      "kind": "radius",
+      "figmaText": "fully rounded",
+      "uiText": "16px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set border-radius to fully rounded (now 16px)"
+    },
+    {
+      "id": "D34",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "shadow",
+      "state": "Default",
+      "viewport": "",
+      "kind": "shadow",
+      "figmaText": "none",
+      "uiText": "none",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D35",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "244px",
+      "uiText": "220px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -24,
+      "severity": "Major",
+      "fix": "Change width from 220px to 244px"
+    },
+    {
+      "id": "D36",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "56px",
+      "uiText": "40px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -16,
+      "severity": "Major",
+      "fix": "Change height from 40px to 56px"
+    },
+    {
+      "id": "D37",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "16px",
+      "uiText": "14px",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 14px to 16px"
+    },
+    {
+      "id": "D38",
+      "audit": "D",
+      "category": "",
+      "element": "Secondary button (CTA)",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "600",
+      "uiText": "600",
+      "figmaSelectors": [
+        "[id=\"Button_3\"]"
+      ],
+      "uiSelectors": [
+        "section:has-text(\"The objective is not to collect\") a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D39",
+      "audit": "D",
+      "category": "",
+      "element": "Footer links",
+      "property": "text color",
+      "state": "Default",
+      "viewport": "",
+      "kind": "color",
+      "figmaText": "#4A5560",
+      "uiText": "#4A5560",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D40",
+      "audit": "D",
+      "category": "",
+      "element": "Footer links",
+      "property": "font-size",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "14px",
+      "uiText": "12px",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": -2,
+      "severity": "Minor",
+      "fix": "Change font-size from 12px to 14px"
+    },
+    {
+      "id": "D41",
+      "audit": "D",
+      "category": "",
+      "element": "Footer links",
+      "property": "font-weight",
+      "state": "Default",
+      "viewport": "",
+      "kind": "weight",
+      "figmaText": "400",
+      "uiText": "400",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D42",
+      "audit": "D",
+      "category": "",
+      "element": "Footer links",
+      "property": "underline on plain links",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "none",
+      "uiText": "none",
+      "figmaSelectors": [
+        "[id=\"Why Now_2\"]"
+      ],
+      "uiSelectors": [
+        "footer ul a:has-text(\"Why Now\")"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D43",
+      "audit": "D",
+      "category": "",
+      "element": "Footer email link",
+      "property": "underline",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "underline",
+      "uiText": "none",
+      "figmaSelectors": [
+        "[id=\"Contact Business Development\"]"
+      ],
+      "uiSelectors": [
+        "footer a[href^=\"mailto:\"]"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set underline to underline (now none)"
+    },
+    {
+      "id": "D44",
+      "audit": "D",
+      "category": "",
+      "element": "Footer LinkedIn link",
+      "property": "underline",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "underline",
+      "uiText": "none",
+      "figmaSelectors": [
+        "[id=\"LinkedIn\"]"
+      ],
+      "uiSelectors": [
+        "footer a[href*=\"linkedin\"]"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set underline to underline (now none)"
+    },
+    {
+      "id": "D45",
+      "audit": "D",
+      "category": "",
+      "element": "Footer links",
+      "property": "labels",
+      "state": "Default",
+      "viewport": "",
+      "kind": "list",
+      "figmaText": "[Why Now, The Platform, Market Applications, Partner Opportunity, Partner Fit & Process, About BargerTech, Executive FAQ, Begin Partner Qualification, Partner Sign In, Contact Business Development, LinkedIn, Privacy, Terms of Use, Cookie Notice, Intellectual Property Notice, Accessibility]",
+      "uiText": "[Why Now, The Platform, Market Applications, Partner Opportunities, Partner Fit & Process, About BargerTech, Executive FAQ, Begin Partner Qualification, Partner Sign In, Contact Business Development, LinkedIn, Privacy, Terms of Use, Cookie Notice, Intellectual Property Notice, Accessibility]",
+      "figmaSelectors": [
+        "[id=\"UpperContent\"] [id$=\"Links\"] text:not([id=\"Business Development\"])"
+      ],
+      "uiSelectors": [
+        "footer ul a"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "differ",
+      "delta": null,
+      "severity": "Minor",
+      "fix": "Set labels to [Why Now, The Platform, Market Applications, Partner Opportunity, Partner Fit & Process, About BargerTech, Executive FAQ, Begin Partner Qualification, Partner Sign In, Contact Business Development, LinkedIn, Privacy, Terms of Use, Cookie Notice, Intellectual Property Notice, Accessibility] (now [Why Now, The Platform, Market Applications, Partner Opportunities, Partner Fit & Process, About BargerTech, Executive FAQ, Begin Partner Qualification, Partner Sign In, Contact Business Development, LinkedIn, Privacy, Terms of Use, Cookie Notice, Intellectual Property Notice, Accessibility])"
+    },
+    {
+      "id": "D46",
+      "audit": "D",
+      "category": "",
+      "element": "Logo link",
+      "property": "width",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "236px",
+      "uiText": "236px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D47",
+      "audit": "D",
+      "category": "",
+      "element": "Logo link",
+      "property": "height",
+      "state": "Default",
+      "viewport": "",
+      "kind": "px",
+      "figmaText": "80px",
+      "uiText": "80px",
+      "figmaSelectors": [
+        "[id=\"BargerTech Engine LOGO PNG No BKGRND 2\"]"
+      ],
+      "uiSelectors": [
+        "header a:has(img)"
+      ],
+      "note": "",
+      "confidence": "High",
+      "status": "match"
+    },
+    {
+      "id": "D48",
+      "audit": "D",
+      "category": "",
+      "element": "Mobile menu toggle",
+      "property": "shown at 1440",
+      "state": "Default",
+      "viewport": "",
+      "kind": "text",
+      "figmaText": "not shown",
+      "uiText": "not shown",
+      "figmaSelectors": [],
+      "uiSelectors": [
+        "header button"
+      ],
+      "note": "",
+      "confidence": "Med",
+      "status": "match"
+    }
+  ]
+}
